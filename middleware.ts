@@ -6,4 +6,5 @@ export default createMiddleware(routing);
 export const config = {
   // Match only internationalized pathnames, excluding static files & images
   matcher: ["/", "/(es|en)/:path*", "/((?!_next|_vercel|images|.*\\..*).*)"],
+  runtime: "nodejs",
 };

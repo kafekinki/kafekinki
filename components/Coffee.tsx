@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Coffee as CoffeeIcon, Check, Flame, PackageCheck, MessageCircle } from "lucide-react";
+import { Coffee as CoffeeIcon, Flame, MessageCircle } from "lucide-react";
 
 export default function Coffee() {
   const t = useTranslations("coffee");
@@ -76,12 +76,12 @@ export default function Coffee() {
           </p>
         </div>
 
-        {/* Product Toggle Tabs */}
+        {/* Product Toggle Switcher */}
         <div className="flex justify-center mb-12">
           <div className="inline-flex p-1.5 rounded-full bg-[#FAF6F0] border border-[#E8DFD3]">
             <button
               onClick={() => setSelectedType("whole")}
-              className={`px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 ${
+              className={`px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer ${
                 selectedType === "whole"
                   ? "bg-[#8C2D19] text-white shadow-xs"
                   : "text-[#5A4C45] hover:text-[#1C1512]"
@@ -91,7 +91,7 @@ export default function Coffee() {
             </button>
             <button
               onClick={() => setSelectedType("ground")}
-              className={`px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 ${
+              className={`px-5 py-2.5 rounded-full text-xs sm:text-sm font-semibold transition-all duration-200 cursor-pointer ${
                 selectedType === "ground"
                   ? "bg-[#8C2D19] text-white shadow-xs"
                   : "text-[#5A4C45] hover:text-[#1C1512]"
@@ -103,7 +103,7 @@ export default function Coffee() {
         </div>
 
         {/* Interactive Feature Card for Selected Presentation */}
-        <div className="bg-[#FBF8F3] rounded-3xl p-6 sm:p-10 lg:p-12 border border-[#E8DFD3] shadow-xs mb-16">
+        <div className="bg-[#FBF8F3] rounded-3xl p-6 sm:p-10 lg:p-12 border border-[#E8DFD3] shadow-xs">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             {/* Left: Product Image */}
             <div className="lg:col-span-5 relative">
@@ -156,7 +156,7 @@ export default function Coffee() {
                     <button
                       key={size}
                       onClick={() => setSelectedSize(size)}
-                      className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border transition-all ${
+                      className={`px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold border transition-all cursor-pointer ${
                         selectedSize === size
                           ? "border-[#8C2D19] bg-[#8C2D19]/10 text-[#8C2D19] font-bold"
                           : "border-[#E8DFD3] bg-white text-[#5A4C45] hover:border-[#8C2D19]/50"
@@ -192,101 +192,6 @@ export default function Coffee() {
                   {t("freshRoastNote")}
                 </span>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Side-by-Side Overview Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-[#FAF6F0] rounded-2xl p-6 sm:p-8 border border-[#E8DFD3] hover:border-[#8C2D19]/40 hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
-            <div>
-              <div className="relative aspect-[16/10] rounded-xl overflow-hidden mb-6 bg-white border border-[#E8DFD3]">
-                <Image
-                  src="/images/kafe-kinki-black-bag.jpg"
-                  alt={productData.whole.name}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-                <div className="absolute top-3 right-3 bg-black/70 backdrop-blur-md text-white text-[10px] font-semibold uppercase px-2.5 py-1 rounded-full">
-                  {productData.whole.roastLevel}
-                </div>
-              </div>
-
-              <div className="text-xs font-bold text-[#8C2D19] uppercase tracking-wider mb-1">
-                {productData.whole.grindType}
-              </div>
-              <h4
-                className="text-xl font-serif font-bold text-[#1C1512] mb-2"
-                style={{ fontFamily: "var(--font-fraunces), serif" }}
-              >
-                {productData.whole.name}
-              </h4>
-              <p className="text-xs sm:text-sm text-[#5A4C45] mb-4">
-                {productData.whole.tagline}
-              </p>
-
-              <div className="flex items-center gap-2 text-xs text-[#7E573C] font-medium mb-6">
-                <PackageCheck className="w-4 h-4 text-[#8C2D19]" />
-                <span>250g / 500g</span>
-              </div>
-            </div>
-
-            <div className="pt-4 border-t border-[#E8DFD3] flex items-center justify-between">
-              <span className="text-xs font-semibold text-[#1C1512]">Pueblo Bello, Colombia</span>
-              <button
-                onClick={() => setSelectedType("whole")}
-                className="text-xs font-bold text-[#8C2D19] hover:text-[#732211] inline-flex items-center gap-1 group cursor-pointer"
-              >
-                <span>{t("tabWhole")}</span>
-                <span className="group-hover:translate-x-0.5 transition-transform">→</span>
-              </button>
-            </div>
-          </div>
-
-          <div className="bg-[#FAF6F0] rounded-2xl p-6 sm:p-8 border border-[#E8DFD3] hover:border-[#8C2D19]/40 hover:shadow-lg transition-all duration-300 flex flex-col justify-between">
-            <div>
-              <div className="relative aspect-[16/10] rounded-xl overflow-hidden mb-6 bg-white border border-[#E8DFD3]">
-                <Image
-                  src="/images/kafe-kinki-white-bag.jpg"
-                  alt={productData.ground.name}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 50vw"
-                />
-                <div className="absolute top-3 right-3 bg-black/70 backdrop-blur-md text-white text-[10px] font-semibold uppercase px-2.5 py-1 rounded-full">
-                  {productData.ground.roastLevel}
-                </div>
-              </div>
-
-              <div className="text-xs font-bold text-[#8C2D19] uppercase tracking-wider mb-1">
-                {productData.ground.grindType}
-              </div>
-              <h4
-                className="text-xl font-serif font-bold text-[#1C1512] mb-2"
-                style={{ fontFamily: "var(--font-fraunces), serif" }}
-              >
-                {productData.ground.name}
-              </h4>
-              <p className="text-xs sm:text-sm text-[#5A4C45] mb-4">
-                {productData.ground.tagline}
-              </p>
-
-              <div className="flex items-center gap-2 text-xs text-[#7E573C] font-medium mb-6">
-                <PackageCheck className="w-4 h-4 text-[#8C2D19]" />
-                <span>250g / 500g</span>
-              </div>
-            </div>
-
-            <div className="pt-4 border-t border-[#E8DFD3] flex items-center justify-between">
-              <span className="text-xs font-semibold text-[#1C1512]">Pueblo Bello, Colombia</span>
-              <button
-                onClick={() => setSelectedType("ground")}
-                className="text-xs font-bold text-[#8C2D19] hover:text-[#732211] inline-flex items-center gap-1 group cursor-pointer"
-              >
-                <span>{t("tabGround")}</span>
-                <span className="group-hover:translate-x-0.5 transition-transform">→</span>
-              </button>
             </div>
           </div>
         </div>
