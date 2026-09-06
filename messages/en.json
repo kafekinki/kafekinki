@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "title": "Kafé Kinki | Specialty Coffee from Sierra Nevada — Pueblo Bello, Colombia",
+    "description": "Kafé Kinki is 100% Colombian specialty coffee, grown and crafted by Carlos in Pueblo Bello, Sierra Nevada de Santa Marta. Kinki: real, true, original in the Arhuaco language.",
+    "keywords": "Kafe Kinki, Colombian specialty coffee, Pueblo Bello, Sierra Nevada de Santa Marta, Arhuaco coffee, artisanal coffee, Carlos producer"
+  },
+  "nav": {
+    "heritage": "Meaning of Kinki",
+    "story": "Story",
+    "origin": "Origin",
+    "coffee": "Our Coffee",
+    "process": "Craft & Care",
+    "instagram": "Instagram",
+    "contact": "Contact",
+    "locationBadge": "Pueblo Bello, Sierra Nevada de Santa Marta",
+    "contactCarlos": "Contact Carlos",
+    "followInstagram": "Follow on Instagram",
+    "switchLang": "Change language"
+  },
+  "hero": {
+    "locationPill": "Pueblo Bello • Sierra Nevada de Santa Marta",
+    "titlePrefix": "Coffee from the",
+    "titleHighlight": "Sierra Nevada",
+    "tagline": "Delight your fragrance, aroma, and flavor",
+    "description": "We are specialty coffee growers and producers in Pueblo Bello, Colombia. Guided by the Arhuaco meaning of Kinki —real, true, and original— we bring the soul of the Sierra straight to your cup with Carlos's craft and care.",
+    "ctaDiscover": "Discover Our Coffee",
+    "ctaStory": "Our Story",
+    "badgeSpecialty": "100% Specialty Coffee",
+    "producerBadge": "Producer",
+    "roastBadge": "Medium Roast",
+    "roastBadgeSub": "Aroma & Fragrance",
+    "statOriginLabel": "Origin",
+    "statOriginValue": "Pueblo Bello, Cesar",
+    "statRoastLabel": "Roast",
+    "statRoastValue": "Artisanal Medium",
+    "statHeritageLabel": "Heritage",
+    "statHeritageValue": "Arhuaco Root",
+    "scrollHint": "Discover the story"
+  },
+  "kinki": {
+    "badge": "Identity & Heritage",
+    "title": "The Meaning of",
+    "titleHighlight": "Kinki",
+    "subtitle": "In the ancestral language of the Arhuaco people of the Sierra Nevada de Santa Marta, the word Kinki means:",
+    "quote": "Real. True. Original.",
+    "p1": "For Carlos and his family, Kafé Kinki is far more than a name: it is a commitment to origin, identity, and deep reverence for the sacred mountains of the Sierra Nevada. Carlos's Indigenous roots guide every step on the farm, knowing coffee is a living bridge between the mountain mists, the fertile earth, and human hands.",
+    "p2": "Naming our coffee Kinki honors the genuine: coffee free from artificial shortcuts or industrial processing, shade-grown beneath native forest canopies and hand-harvested with patience and honesty.",
+    "pillars": {
+      "kinki": {
+        "title": "Kinki",
+        "desc": "Real, true, and original. The guiding philosophy of transparency and truth in every bean."
+      },
+      "puebloBello": {
+        "title": "Pueblo Bello",
+        "desc": "The sacred mountain gateway at the foothills of the Sierra, home to pure waters and rich soils."
+      },
+      "sierraNevada": {
+        "title": "Sierra Nevada",
+        "desc": "The highest coastal mountain on Earth, ancestral heartland and blessed coffee microclimate."
+      },
+      "carlos": {
+        "title": "Carlos",
+        "desc": "A grower and producer of Indigenous heritage who infuses care and respect into every harvest."
+      },
+      "cafe": {
+        "title": "The Coffee",
+        "desc": "The honest harvest bringing together sacred land, timeless heritage, and the cup you enjoy."
+      }
+    }
+  },
+  "story": {
+    "badge": "Our Story",
+    "title": "From our land",
+    "titleHighlight": "to your cup.",
+    "producerStamp": "The grower behind every bean",
+    "p1": "Behind every bag of Kafé Kinki is Carlos, a coffee grower and producer from Pueblo Bello, Cesar. His bond with coffee was forged not in a corporate boardroom, but along the mountain trails of the Sierra Nevada de Santa Marta.",
+    "p2": "Unlike mass industrial coffee, Kafé Kinki is the result of independent, small-batch craftsmanship. Every coffee tree is planted, naturally nourished, and cared for by hand, safeguarding the living biodiversity of the mountain ecosystem.",
+    "quote": "Growing specialty coffee is more than an occupation—it is our way of honoring the land and sharing the genuine aroma of the Sierra with the world.",
+    "values": {
+      "smallProducerTitle": "Independent Small Producer",
+      "smallProducerDesc": "Direct and personal care without corporate middlemen.",
+      "originTitle": "Pueblo Bello, Cesar",
+      "originDesc": "Authentic coffee haven in the heart of the Sierra Nevada."
+    },
+    "followLink": "Follow Carlos's daily life on the farm at @kafe_kinki"
+  },
+  "origin": {
+    "badge": "The Origin Journey",
+    "title": "From the Sierra Nevada to your cup,",
+    "titleHighlight": "step by step.",
+    "subtitle": "Kafé Kinki's authenticity stems from the unique geography of Pueblo Bello and respect for every stage of the coffee's journey.",
+    "locationBannerTitle": "Sierra Nevada de Santa Marta",
+    "locationBannerDesc": "A realm of morning mists, fertile mountain soils, and ancestral reverence where Carlos grows with devotion.",
+    "originUniqueBadge": "100% Single Origin",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Pueblo Bello",
+        "location": "Cesar, Colombia",
+        "desc": "The starting point in the foothills of the Sierra Nevada. A fertile region blessed with lush vegetation and coffee-growing heritage.",
+        "metric": "Coffee Town"
+      },
+      {
+        "step": "02",
+        "title": "Sierra Nevada de Santa Marta",
+        "location": "Mountain Microclimate",
+        "desc": "The sacred mountain creates cool air currents, misty mornings, and nutrient-rich volcanic soils for slow, sweet cherry maturation.",
+        "metric": "Unique Microclimate"
+      },
+      {
+        "step": "03",
+        "title": "Shade-Grown Farming",
+        "location": "Carlos's Coffee Farm",
+        "desc": "Coffee trees thrive protected under native canopy shade, fostering natural biodiversity and safeguarding mountain soil.",
+        "metric": "Natural Canopy"
+      },
+      {
+        "step": "04",
+        "title": "Selective Hand Harvesting",
+        "location": "Peak Ripeness",
+        "desc": "Every cherry is hand-picked exclusively at peak red ripeness, ensuring only wholesome, naturally sweet fruits are gathered.",
+        "metric": "Hand Picked"
+      },
+      {
+        "step": "05",
+        "title": "Sun Drying on Raised Beds",
+        "location": "Drying Patios & Beds",
+        "desc": "A meticulous process where beans breathe and gently dry under the Andean sun and mountain breeze, locking in aromatic sugars.",
+        "metric": "Artisanal Drying"
+      },
+      {
+        "step": "06",
+        "title": "Your Cup of Coffee",
+        "location": "At Your Table",
+        "desc": "A genuine Kinki (real and true) experience, straight from the Colombian countryside to your cup with Carlos's signature seal.",
+        "metric": "Direct from Producer"
+      }
+    ],
+    "stageLabel": "Stage"
+  },
+  "coffee": {
+    "badge": "100% Colombian Specialty Coffee",
+    "title": "Our",
+    "titleHighlight": "Presentations",
+    "subtitle": "Grown, hand-selected, and roasted in artisanal small batches. Available in whole bean for freshly ground aroma, and precision ground ready to brew.",
+    "tabWhole": "Whole Bean (Grano Entero)",
+    "tabGround": "Ground (Café Molido)",
+    "sizesLabel": "Available Sizes",
+    "bagLabel": "Bag",
+    "inquireButton": "Inquire with Carlos",
+    "freshRoastNote": "Artisanal batches roasted fresh to order.",
+    "specOrigin": "Origin",
+    "specProducer": "Producer",
+    "specRoast": "Roast",
+    "specPresentation": "Presentation",
+    "specComposition": "Composition",
+    "wholeBean": {
+      "name": "Kafé Kinki — Whole Bean",
+      "subtitle": "Artisanal Coffee from the Sierra Nevada",
+      "grindType": "Whole Bean",
+      "roastLevel": "Artisanal Medium Roast",
+      "tagline": "Preserves optimal freshness, natural essential oils, and vibrant fragrance.",
+      "description": "100% Colombian specialty coffee, shade-grown and hand-harvested by Carlos. Whole bean format to grind freshly before each brew and delight in the distinct aroma and flavor of the Sierra Nevada.",
+      "badge": "100% Artisanal Coffee"
+    },
+    "ground": {
+      "name": "Kafé Kinki — Ground Coffee",
+      "subtitle": "Artisanal Coffee from the Sierra Nevada",
+      "grindType": "Fresh Ground",
+      "roastLevel": "Artisanal Medium Roast",
+      "tagline": "Ready to brew in pour over, French press, drip filter, or moka pot.",
+      "description": "The exact same specialty coffee from Pueblo Bello, ground with artisanal precision to deliver a balanced, aromatic, full-bodied cup from the very first pour.",
+      "badge": "Ready to Brew"
+    }
+  },
+  "process": {
+    "badge": "Craft & Dedication",
+    "title": "Care in",
+    "titleHighlight": "Every Detail",
+    "subtitle": "Producing specialty coffee is not an industrial assembly line; it is a daily commitment of patience, mindfulness, and respect for the land in Pueblo Bello.",
+    "stages": [
+      {
+        "number": "01",
+        "title": "The Farm & The Soil",
+        "subtitle": "Daily care of each living plant",
+        "description": "In Pueblo Bello, every coffee tree is attended with continuous care. Carlos walks his plots inspecting leaf vitality, blossoming flowers, and cherry growth under the mountain climate.",
+        "badge": "Origin & Land",
+        "highlights": ["Shade-grown under native canopy", "Mineral-rich Sierra soils", "Deep ecological balance"]
+      },
+      {
+        "number": "02",
+        "title": "Selective Hand Harvesting",
+        "subtitle": "Only cherries at peak sweetness",
+        "description": "Harvesting is patient manual labor. No mechanical harvesters are used: trained eyes and gentle hands select exclusively the deep-crimson ripe cherries.",
+        "badge": "Hand Harvest",
+        "highlights": ["Cherry-by-cherry manual selection", "Optimal sugar concentration", "Gentle tree care"]
+      },
+      {
+        "number": "03",
+        "title": "Natural Washing & Sun Drying",
+        "subtitle": "Beans resting under the Andean sky",
+        "description": "The coffee is depulped and spread over ventilated African raised beds. Andean sunshine and mountain breezes gently dry the beans to ideal moisture levels.",
+        "badge": "Sun Dried",
+        "highlights": ["Artisanal moisture control", "Natural mountain airflow", "Careful parchment protection"]
+      },
+      {
+        "number": "04",
+        "title": "Artisanal Medium Roast",
+        "subtitle": "Highlighting fragrance, aroma, and body",
+        "description": "A balanced medium roast allows the coffee to express its true origin profile: neither underdeveloped nor burnt. It unlocks the vibrant aroma and delicate fragrance defining Kafé Kinki.",
+        "badge": "Medium Roast",
+        "highlights": ["Small-batch craft roasting", "Balanced roasting curve", "Sealed with degassing valve for freshness"]
+      }
+    ]
+  },
+  "instagram": {
+    "badge": "Community & Life on the Farm",
+    "title": "Follow the Journey of",
+    "subtitle": "Discover daily life in Pueblo Bello, Carlos's harvests, and the moments behind every small batch.",
+    "button": "Follow on Instagram",
+    "viewOnIg": "View on Instagram",
+    "bioSnippet": "We are specialty coffee growers and producers. Located in Pueblo Bello, Sierra Nevada."
+  },
+  "contact": {
+    "badge": "Direct Contact",
+    "title": "Let's talk",
+    "titleHighlight": "good coffee.",
+    "description": "Would you like to learn more about our harvests, check batch availability, or say hello to Carlos? Reach out to us and we'll gladly respond.",
+    "locationTitle": "Location & Origin",
+    "locationValue": "Pueblo Bello, Cesar",
+    "locationSub": "Sierra Nevada de Santa Marta, Colombia",
+    "igTitle": "Official Instagram",
+    "igSub": "Direct messages and daily farm updates",
+    "directTitle": "Direct Connection",
+    "directValue": "Carlos — Producer",
+    "directSub": "Artisanal whole bean and ground coffee",
+    "formTitle": "Send a Message to Carlos",
+    "formSub": "Fill out this brief form and we will get back to you promptly.",
+    "nameLabel": "Your Name",
+    "namePlaceholder": "e.g. Sofia Gomez",
+    "contactLabel": "Email / WhatsApp",
+    "contactPlaceholder": "you@email.com or +1...",
+    "interestLabel": "Main Interest",
+    "interestWhole": "Whole Bean Coffee (250g / 500g)",
+    "interestGround": "Fresh Ground Coffee (250g / 500g)",
+    "interestOrigin": "Origin & Harvest Information",
+    "interestPartnership": "Partnerships & Wholesale Inquiries",
+    "messageLabel": "Your Message or Question",
+    "messagePlaceholder": "Tell us what you would like to know about Kafé Kinki...",
+    "submitButton": "Send Message to Carlos",
+    "successTitle": "Message Received!",
+    "successDesc": "Thank you for your interest in Kafé Kinki. Carlos or our team will get in touch with you shortly.",
+    "sendAnother": "Send another message"
+  },
+  "footer": {
+    "tagline": "Delight your fragrance, aroma, and flavor",
+    "description": "100% Colombian specialty coffee, grown and crafted by Carlos in Pueblo Bello, deep within the Sierra Nevada de Santa Marta.",
+    "navTitle": "Navigation",
+    "originTitle": "Guaranteed Origin",
+    "originDesc": "Sacred land, mountain microclimates, and artisanal coffee craft free from invasive industrial methods.",
+    "badgeArtisan": "100% Artisanal Coffee",
+    "badgeRoast": "Medium Roast",
+    "rights": "Kafé Kinki. Grown with pride in Pueblo Bello, Colombia.",
+    "backToTop": "Back to top"
+  }
+}

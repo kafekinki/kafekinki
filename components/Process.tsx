@@ -1,9 +1,35 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
-import { CRAFT_PROCESS } from "@/lib/data";
+import { useTranslations } from "next-intl";
 import { Hammer, CheckCircle2 } from "lucide-react";
 
 export default function Process() {
+  const t = useTranslations("process");
+
+  const images = [
+    "/images/hero-sierra-nevada.jpg",
+    "/images/coffee-cherries.jpg",
+    "/images/coffee-drying.jpg",
+    "/images/coffee-roasting.jpg",
+  ];
+
+  const stagesCount = 4;
+  const stages = Array.from({ length: stagesCount }, (_, i) => ({
+    number: t(`stages.${i}.number`),
+    title: t(`stages.${i}.title`),
+    subtitle: t(`stages.${i}.subtitle`),
+    description: t(`stages.${i}.description`),
+    badge: t(`stages.${i}.badge`),
+    image: images[i],
+    highlights: [
+      t(`stages.${i}.highlights.0`),
+      t(`stages.${i}.highlights.1`),
+      t(`stages.${i}.highlights.2`),
+    ],
+  }));
+
   return (
     <section id="proceso" className="py-20 md:py-32 bg-[#FAF6F0] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -11,28 +37,27 @@ export default function Process() {
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-24">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#8C2D19]/10 text-[#8C2D19] text-xs font-bold uppercase tracking-wider mb-4">
             <Hammer className="w-3.5 h-3.5" />
-            <span>Oficio & Dedicación</span>
+            <span>{t("badge")}</span>
           </div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#1C1512] leading-tight mb-6"
             style={{ fontFamily: "var(--font-fraunces), serif" }}
           >
-            El Cuidado en{" "}
+            {t("title")}{" "}
             <span className="text-[#8C2D19] italic font-normal">
-              Cada Detalle
+              {t("titleHighlight")}
             </span>
           </h2>
 
           <p className="text-base sm:text-lg text-[#5A4C45] leading-relaxed">
-            Hacer café especial no es un proceso industrial masivo; es un compromiso diario de paciencia,
-            atención y respeto por la tierra en Pueblo Bello.
+            {t("subtitle")}
           </p>
         </div>
 
         {/* 4 Process Stages Alternating Layout */}
         <div className="space-y-16 lg:space-y-24">
-          {CRAFT_PROCESS.map((stage, idx) => {
+          {stages.map((stage, idx) => {
             const isEven = idx % 2 === 1;
             return (
               <div
@@ -55,7 +80,7 @@ export default function Process() {
                       className="object-cover hover:scale-105 transition-transform duration-700"
                       sizes="(max-width: 1024px) 100vw, 50vw"
                     />
-                    <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3.5 py-1 rounded-full text-xs font-bold text-[#8C2D19] uppercase tracking-wider shadow-sm">
+                    <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3.5 py-1 rounded-full text-xs font-bold text-[#8C2D19] uppercase tracking-wider shadow-xs">
                       {stage.badge}
                     </div>
                   </div>

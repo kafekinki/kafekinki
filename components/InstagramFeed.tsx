@@ -1,10 +1,15 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
 import { INSTAGRAM_POSTS, BRAND_DATA } from "@/lib/data";
+import { useTranslations } from "next-intl";
 import { ArrowUpRight } from "lucide-react";
 import InstagramIcon from "./icons/InstagramIcon";
 
 export default function InstagramFeed() {
+  const t = useTranslations("instagram");
+
   return (
     <section id="instagram" className="py-20 md:py-32 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -13,21 +18,21 @@ export default function InstagramFeed() {
           <div>
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#8C2D19]/10 text-[#8C2D19] text-xs font-bold uppercase tracking-wider mb-4">
               <InstagramIcon className="w-3.5 h-3.5" />
-              <span>Comunidad & Vida en el Cafetal</span>
+              <span>{t("badge")}</span>
             </div>
 
             <h2
               className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#1C1512] leading-tight"
               style={{ fontFamily: "var(--font-fraunces), serif" }}
             >
-              Sigue el viaje de{" "}
+              {t("title")}{" "}
               <span className="text-[#8C2D19] italic font-normal">
                 {BRAND_DATA.name}
               </span>
             </h2>
 
             <p className="text-base text-[#5A4C45] mt-2 max-w-xl">
-              Descubre el día a día en Pueblo Bello, la cosecha de Carlos y los momentos detrás de cada lote.
+              {t("subtitle")}
             </p>
           </div>
 
@@ -35,10 +40,10 @@ export default function InstagramFeed() {
             href={BRAND_DATA.instagramUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-[#FAF6F0] hover:bg-[#8C2D19] text-[#1C1512] hover:text-white border border-[#E8DFD3] hover:border-[#8C2D19] px-6 py-3 rounded-full text-sm font-semibold transition-all duration-300 self-start md:self-auto shadow-sm group"
+            className="inline-flex items-center gap-2 bg-[#FAF6F0] hover:bg-[#8C2D19] text-[#1C1512] hover:text-white border border-[#E8DFD3] hover:border-[#8C2D19] px-6 py-3 rounded-full text-sm font-semibold transition-all duration-300 self-start md:self-auto shadow-xs group"
           >
             <InstagramIcon className="w-4 h-4 text-[#8C2D19] group-hover:text-white transition-colors" />
-            <span>Seguir en Instagram</span>
+            <span>{t("button")}</span>
             <span className="font-bold text-[#8C2D19] group-hover:text-white transition-colors">{BRAND_DATA.instagramHandle}</span>
             <ArrowUpRight className="w-4 h-4" />
           </a>
@@ -52,7 +57,7 @@ export default function InstagramFeed() {
               href={post.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative aspect-square rounded-2xl overflow-hidden bg-stone-100 border border-[#E8DFD3] shadow-sm block"
+              className="group relative aspect-square rounded-2xl overflow-hidden bg-stone-100 border border-[#E8DFD3] shadow-xs block"
               aria-label={post.title}
             >
               <Image
@@ -73,17 +78,17 @@ export default function InstagramFeed() {
                 </p>
                 <div className="mt-2 flex items-center gap-1 text-[10px] text-amber-200 font-semibold">
                   <InstagramIcon className="w-3 h-3" />
-                  <span>Ver en Instagram</span>
+                  <span>{t("viewOnIg")}</span>
                 </div>
               </div>
             </a>
           ))}
         </div>
 
-        {/* Small bio snippet */}
+        {/* Bio snippet */}
         <div className="mt-8 text-center">
           <p className="text-xs text-[#84756D]">
-            Somos cultivadores y productores de café de especialidad. Ubicados en Pueblo Bello, Sierra Nevada.
+            {t("bioSnippet")}
           </p>
         </div>
       </div>

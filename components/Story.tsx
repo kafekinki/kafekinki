@@ -1,12 +1,16 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 import { BRAND_DATA } from "@/lib/data";
-import { HeartHandshake, Mountain, Sparkles, Sprout } from "lucide-react";
+import { HeartHandshake, Mountain, Sprout } from "lucide-react";
 
 export default function Story() {
+  const t = useTranslations("story");
+
   return (
     <section id="historia" className="py-20 md:py-32 bg-white relative overflow-hidden">
-      {/* Subtle Texture Overlay */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
           {/* Left Column: Carlos in Field Photography */}
@@ -29,13 +33,14 @@ export default function Story() {
                   src="/images/carlos-harvest.jpg"
                   alt="Carlos recolectando café en Pueblo Bello"
                   fill
+                  sizes="(max-width: 768px) 50vw, 25vw"
                   className="object-cover"
                 />
               </div>
 
               {/* Decorative Label Stamp */}
-              <div className="absolute -top-4 -left-4 bg-[#8C2D19] text-white px-4 py-2 rounded-lg shadow-lg font-serif text-sm italic">
-                El caficultor detrás de cada grano
+              <div className="absolute -top-4 -left-4 bg-[#8C2D19] text-white px-4 py-2 rounded-lg shadow-lg font-serif text-xs sm:text-sm italic">
+                {t("producerStamp")}
               </div>
             </div>
           </div>
@@ -44,42 +49,28 @@ export default function Story() {
           <div className="lg:col-span-6 flex flex-col items-start">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-100/70 text-[#7E573C] text-xs font-bold uppercase tracking-wider mb-4">
               <Sprout className="w-3.5 h-3.5 text-[#8C2D19]" />
-              <span>Nuestra Historia</span>
+              <span>{t("badge")}</span>
             </div>
 
             <h2
               className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#1C1512] leading-tight mb-6"
               style={{ fontFamily: "var(--font-fraunces), serif" }}
             >
-              De nuestra tierra{" "}
+              {t("title")}{" "}
               <span className="text-[#8C2D19] italic font-normal">
-                a tu taza.
+                {t("titleHighlight")}
               </span>
             </h2>
 
             <div className="space-y-4 text-base sm:text-lg text-[#5A4C45] leading-relaxed">
-              <p>
-                Detrás de cada paquete de <strong className="text-[#1C1512] font-semibold">{BRAND_DATA.name}</strong> hay
-                un rostro, unas manos y una tierra con nombre propio:{" "}
-                <strong className="text-[#1C1512] font-semibold">Carlos</strong>, cultivador y
-                productor en el municipio de{" "}
-                <strong className="text-[#1C1512] font-semibold">Pueblo Bello, Cesar</strong>,
-                enclavado en el corazón de la majestuosa Sierra Nevada de Santa Marta.
-              </p>
-              <p>
-                A diferencia del café industrial masivo, Kafé Kinki nace de una labor artesanal
-                e independiente. Cada árbol de café es sembrado, cuidado y cosechado directamente en
-                nuestra finca, respetando los tiempos naturales de la planta y la riqueza única de
-                los suelos de montaña.
-              </p>
+              <p>{t("p1")}</p>
+              <p>{t("p2")}</p>
               <p className="font-serif italic text-lg sm:text-xl text-[#7E573C] border-l-2 border-[#8C2D19] pl-4 py-1">
-                &ldquo;Cultivar café de especialidad no es solo un oficio, es la forma en que
-                honramos nuestra tierra y compartimos con el mundo el aroma auténtico de la
-                Sierra.&rdquo;
+                &ldquo;{t("quote")}&rdquo;
               </p>
             </div>
 
-            {/* Core Values / Small Independent Producer Pillars */}
+            {/* Core Values */}
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
               <div className="flex items-start gap-3 p-3.5 rounded-xl bg-[#FBF8F3] border border-[#E8DFD3]/80">
                 <div className="w-8 h-8 rounded-lg bg-[#8C2D19]/10 text-[#8C2D19] flex items-center justify-center shrink-0">
@@ -87,10 +78,10 @@ export default function Story() {
                 </div>
                 <div>
                   <h3 className="text-xs font-bold text-[#1C1512] uppercase tracking-wider">
-                    Pequeño Productor
+                    {t("values.smallProducerTitle")}
                   </h3>
                   <p className="text-xs text-[#5A4C45] mt-0.5">
-                    Trato directo, sin intermediarios corporativos.
+                    {t("values.smallProducerDesc")}
                   </p>
                 </div>
               </div>
@@ -101,10 +92,10 @@ export default function Story() {
                 </div>
                 <div>
                   <h3 className="text-xs font-bold text-[#1C1512] uppercase tracking-wider">
-                    Pueblo Bello, Cesar
+                    {t("values.originTitle")}
                   </h3>
                   <p className="text-xs text-[#5A4C45] mt-0.5">
-                    Cuna de café en las faldas de la Sierra Nevada.
+                    {t("values.originDesc")}
                   </p>
                 </div>
               </div>
@@ -118,7 +109,7 @@ export default function Story() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 text-sm font-semibold text-[#8C2D19] hover:text-[#732211] group"
               >
-                <span>Acompaña a Carlos en su día a día en {BRAND_DATA.instagramHandle}</span>
+                <span>{t("followLink")}</span>
                 <span className="transform group-hover:translate-x-1 transition-transform">→</span>
               </a>
             </div>

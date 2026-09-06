@@ -1,9 +1,13 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
-import { BRAND_DATA } from "@/lib/data";
+import { useTranslations } from "next-intl";
 import { ArrowDown, Sparkles, MapPin, Coffee, Compass } from "lucide-react";
 
 export default function Hero() {
+  const t = useTranslations("hero");
+
   return (
     <section className="relative min-h-[92vh] flex items-center pt-28 pb-16 md:pt-36 md:pb-24 overflow-hidden">
       {/* Subtle Warm Background Elements */}
@@ -18,7 +22,7 @@ export default function Hero() {
             {/* Origin & Badge pill */}
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#8C2D19]/10 border border-[#8C2D19]/20 text-[#8C2D19] text-xs font-semibold uppercase tracking-wider mb-6">
               <MapPin className="w-3.5 h-3.5" />
-              <span>Pueblo Bello • Sierra Nevada de Santa Marta</span>
+              <span>{t("locationPill")}</span>
             </div>
 
             {/* Main Headline */}
@@ -26,9 +30,9 @@ export default function Hero() {
               className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-serif font-bold text-[#1C1512] leading-[1.08] tracking-tight mb-6"
               style={{ fontFamily: "var(--font-fraunces), serif" }}
             >
-              Café de la{" "}
+              {t("titlePrefix")}{" "}
               <span className="relative inline-block text-[#8C2D19] italic font-normal">
-                Sierra Nevada
+                {t("titleHighlight")}
                 <svg
                   className="absolute left-0 -bottom-1.5 w-full h-2 text-[#C69864]/60"
                   viewBox="0 0 100 8"
@@ -46,15 +50,12 @@ export default function Hero() {
 
             {/* Brand Authentic Tagline */}
             <p className="text-xl sm:text-2xl font-serif italic text-[#4A3328] mb-4">
-              &ldquo;{BRAND_DATA.tagline}&rdquo;
+              &ldquo;{t("tagline")}&rdquo;
             </p>
 
             {/* Supporting Copy */}
             <p className="text-base sm:text-lg text-[#5A4C45] leading-relaxed max-w-xl mb-8">
-              Somos cultivadores y productores de café de especialidad en{" "}
-              <strong className="text-[#1C1512] font-semibold">Pueblo Bello, Colombia</strong>.
-              Café 100% artesanal, en grano entero y molido con tostión media, llevado directamente
-              de nuestros cafetales a tu taza con el esmero de Carlos.
+              {t("description")}
             </p>
 
             {/* CTAs */}
@@ -64,15 +65,15 @@ export default function Hero() {
                 className="inline-flex items-center justify-center gap-2.5 bg-[#8C2D19] hover:bg-[#732211] text-white font-medium text-sm sm:text-base px-7 py-3.5 rounded-full shadow-md hover:shadow-lg transition-all duration-300 transform hover:-translate-y-0.5"
               >
                 <Coffee className="w-4 h-4" />
-                <span>Descubrir Nuestro Café</span>
+                <span>{t("ctaDiscover")}</span>
               </a>
 
               <a
-                href="#historia"
+                href="#kinki"
                 className="inline-flex items-center justify-center gap-2 bg-white/80 hover:bg-white text-[#221713] border border-[#D5C7B7] font-medium text-sm sm:text-base px-6 py-3.5 rounded-full hover:border-[#8C2D19] transition-all duration-200"
               >
                 <Compass className="w-4 h-4 text-[#8C2D19]" />
-                <span>Conocer la Historia</span>
+                <span>{t("ctaStory")}</span>
               </a>
             </div>
 
@@ -80,26 +81,26 @@ export default function Hero() {
             <div className="mt-10 pt-8 border-t border-[#E8DFD3] w-full grid grid-cols-3 gap-4">
               <div>
                 <div className="text-xs uppercase tracking-wider text-[#84756D] font-semibold">
-                  Origen
+                  {t("statOriginLabel")}
                 </div>
                 <div className="text-sm font-bold text-[#1C1512] mt-0.5">
-                  Pueblo Bello
+                  {t("statOriginValue")}
                 </div>
               </div>
               <div>
                 <div className="text-xs uppercase tracking-wider text-[#84756D] font-semibold">
-                  Tostión
+                  {t("statRoastLabel")}
                 </div>
                 <div className="text-sm font-bold text-[#1C1512] mt-0.5">
-                  Media Artesanal
+                  {t("statRoastValue")}
                 </div>
               </div>
               <div>
                 <div className="text-xs uppercase tracking-wider text-[#84756D] font-semibold">
-                  Café
+                  {t("statHeritageLabel")}
                 </div>
                 <div className="text-sm font-bold text-[#1C1512] mt-0.5">
-                  100% Colombiano
+                  {t("statHeritageValue")}
                 </div>
               </div>
             </div>
@@ -123,7 +124,7 @@ export default function Hero() {
                 <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3.5 py-1.5 rounded-full border border-amber-200 shadow-sm flex items-center gap-1.5">
                   <Sparkles className="w-3.5 h-3.5 text-amber-600" />
                   <span className="text-[11px] font-bold tracking-wider uppercase text-[#1C1512]">
-                    100% Café de Especialidad
+                    {t("badgeSpecialty")}
                   </span>
                 </div>
               </div>
@@ -135,12 +136,13 @@ export default function Hero() {
                     src="/images/carlos-portrait.jpg"
                     alt="Carlos - Productor de Kafe Kinki"
                     fill
+                    sizes="48px"
                     className="object-cover"
                   />
                 </div>
                 <div>
                   <div className="text-[11px] font-semibold text-[#8C2D19] uppercase tracking-wide">
-                    Productor
+                    {t("producerBadge")}
                   </div>
                   <div className="text-xs font-bold text-[#1C1512]">Carlos</div>
                   <div className="text-[10px] text-[#84756D]">Pueblo Bello, Cesar</div>
@@ -150,10 +152,10 @@ export default function Hero() {
               {/* Secondary Floating Stamp (Tostión Media) */}
               <div className="absolute -top-5 -right-4 sm:-right-6 bg-[#140E0C] text-[#FAF6F0] rounded-2xl p-3.5 shadow-xl border border-amber-900/40 max-w-[170px] text-center hidden sm:block">
                 <div className="text-[10px] uppercase font-semibold text-amber-300 tracking-wider">
-                  Tostión Media
+                  {t("roastBadge")}
                 </div>
                 <div className="text-xs font-serif font-medium mt-0.5 text-amber-100">
-                  Aroma & Fragancia
+                  {t("roastBadgeSub")}
                 </div>
               </div>
             </div>
@@ -163,11 +165,11 @@ export default function Hero() {
         {/* Scroll Indicator */}
         <div className="mt-12 md:mt-16 flex justify-center">
           <a
-            href="#historia"
+            href="#kinki"
             className="inline-flex flex-col items-center gap-1.5 text-[#84756D] hover:text-[#8C2D19] transition-colors group text-xs uppercase tracking-widest font-semibold"
-            aria-label="Desplazarse a la sección historia"
+            aria-label={t("scrollHint")}
           >
-            <span>Descubre la historia</span>
+            <span>{t("scrollHint")}</span>
             <ArrowDown className="w-4 h-4 animate-bounce text-[#8C2D19]" />
           </a>
         </div>

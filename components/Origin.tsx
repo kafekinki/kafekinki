@@ -1,42 +1,53 @@
+"use client";
+
 import React from "react";
 import Image from "next/image";
-import { ORIGIN_JOURNEY } from "@/lib/data";
+import { useTranslations } from "next-intl";
 import { MapPin, Mountain, Trees, Sparkles, Sun, Coffee, Compass } from "lucide-react";
 
 export default function Origin() {
-  const iconMap: Record<string, React.ReactNode> = {
-    MapPin: <MapPin className="w-5 h-5" />,
-    Mountain: <Mountain className="w-5 h-5" />,
-    Trees: <Trees className="w-5 h-5" />,
-    Sparkles: <Sparkles className="w-5 h-5" />,
-    Sun: <Sun className="w-5 h-5" />,
-    Coffee: <Coffee className="w-5 h-5" />,
-  };
+  const t = useTranslations("origin");
+
+  const icons = [
+    <MapPin key="1" className="w-5 h-5" />,
+    <Mountain key="2" className="w-5 h-5" />,
+    <Trees key="3" className="w-5 h-5" />,
+    <Sparkles key="4" className="w-5 h-5" />,
+    <Sun key="5" className="w-5 h-5" />,
+    <Coffee key="6" className="w-5 h-5" />,
+  ];
+
+  const stepsCount = 6;
+  const steps = Array.from({ length: stepsCount }, (_, i) => ({
+    step: t(`steps.${i}.step`),
+    title: t(`steps.${i}.title`),
+    location: t(`steps.${i}.location`),
+    desc: t(`steps.${i}.desc`),
+    metric: t(`steps.${i}.metric`),
+  }));
 
   return (
     <section id="origen" className="py-20 md:py-32 bg-[#F3ECE1]/60 relative overflow-hidden">
-      {/* Background Subtle Mountain Contour Accent */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 md:mb-20">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#1E382B]/10 text-[#1E382B] text-xs font-bold uppercase tracking-wider mb-4">
             <Compass className="w-3.5 h-3.5" />
-            <span>El Viaje del Origen</span>
+            <span>{t("badge")}</span>
           </div>
 
           <h2
             className="text-3xl sm:text-4xl lg:text-5xl font-serif font-bold text-[#1C1512] leading-tight mb-6"
             style={{ fontFamily: "var(--font-fraunces), serif" }}
           >
-            De la Sierra Nevada a tu taza,{" "}
+            {t("title")}{" "}
             <span className="text-[#8C2D19] italic font-normal">
-              paso a paso.
+              {t("titleHighlight")}
             </span>
           </h2>
 
           <p className="text-base sm:text-lg text-[#5A4C45] leading-relaxed">
-            La magia de Kafé Kinki reside en la geografía única de Pueblo Bello y en el respeto
-            absoluto por cada etapa de transformación del grano.
+            {t("subtitle")}
           </p>
         </div>
 
@@ -63,17 +74,16 @@ export default function Origin() {
                 className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-white tracking-tight"
                 style={{ fontFamily: "var(--font-fraunces), serif" }}
               >
-                Sierra Nevada de Santa Marta
+                {t("locationBannerTitle")}
               </h3>
               <p className="text-sm sm:text-base text-stone-200 mt-1 max-w-xl">
-                Tierra fértil de montaña, aire puro y tradición cafetera donde Carlos cultiva
-                con pasión cada grano.
+                {t("locationBannerDesc")}
               </p>
             </div>
 
             <div className="bg-black/40 backdrop-blur-md border border-white/20 px-5 py-3 rounded-2xl shrink-0">
               <div className="text-[11px] uppercase tracking-wider text-amber-300 font-bold">
-                100% Origen Único
+                {t("originUniqueBadge")}
               </div>
               <div className="text-sm font-semibold text-white mt-0.5">
                 Pueblo Bello • Cesar
@@ -84,10 +94,10 @@ export default function Origin() {
 
         {/* Step-by-Step Interactive Path Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-          {ORIGIN_JOURNEY.map((item, index) => (
+          {steps.map((item, index) => (
             <div
               key={item.step}
-              className="group bg-white rounded-2xl p-6 sm:p-8 shadow-sm hover:shadow-xl border border-[#E8DFD3] transition-all duration-300 hover:-translate-y-1 relative flex flex-col justify-between"
+              className="group bg-white rounded-2xl p-6 sm:p-8 shadow-xs hover:shadow-xl border border-[#E8DFD3] transition-all duration-300 hover:-translate-y-1 relative flex flex-col justify-between"
             >
               {/* Step indicator tag */}
               <div className="flex items-center justify-between mb-6">
@@ -95,7 +105,7 @@ export default function Origin() {
                   {item.step}
                 </span>
                 <div className="w-10 h-10 rounded-full bg-[#FAF6F0] group-hover:bg-[#8C2D19]/10 text-[#7E573C] group-hover:text-[#8C2D19] flex items-center justify-center transition-colors">
-                  {iconMap[item.iconName] || <Coffee className="w-5 h-5" />}
+                  {icons[index] || <Coffee className="w-5 h-5" />}
                 </div>
               </div>
 
@@ -110,13 +120,13 @@ export default function Origin() {
                   {item.title}
                 </h4>
                 <p className="text-sm text-[#5A4C45] leading-relaxed mb-6">
-                  {item.description}
+                  {item.desc}
                 </p>
               </div>
 
               {/* Bottom tag */}
               <div className="pt-4 border-t border-[#E8DFD3]/60 flex items-center justify-between text-xs font-semibold text-[#84756D]">
-                <span>Etapa {index + 1} de 6</span>
+                <span>{t("stageLabel")} {index + 1} / {stepsCount}</span>
                 <span className="text-[#8C2D19] font-medium">{item.metric}</span>
               </div>
             </div>

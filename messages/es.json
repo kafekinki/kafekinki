@@ -1,0 +1,266 @@
+{
+  "meta": {
+    "title": "Kafé Kinki | Café de Especialidad de la Sierra Nevada — Pueblo Bello, Colombia",
+    "description": "Kafé Kinki es café 100% colombiano de especialidad, cultivado por Carlos en Pueblo Bello, en la Sierra Nevada de Santa Marta. Kinki: lo real, lo verdadero, lo original en lengua arhuaca.",
+    "keywords": "Kafe Kinki, café de especialidad, Colombia, Pueblo Bello, Sierra Nevada de Santa Marta, café arhuaco, café artesanal, Carlos productor"
+  },
+  "nav": {
+    "heritage": "Significado de Kinki",
+    "story": "Historia",
+    "origin": "Origen",
+    "coffee": "Nuestro Café",
+    "process": "Artesanía",
+    "instagram": "Instagram",
+    "contact": "Contacto",
+    "locationBadge": "Pueblo Bello, Sierra Nevada de Santa Marta",
+    "contactCarlos": "Contactar a Carlos",
+    "followInstagram": "Seguir en Instagram",
+    "switchLang": "Cambiar idioma"
+  },
+  "hero": {
+    "locationPill": "Pueblo Bello • Sierra Nevada de Santa Marta",
+    "titlePrefix": "Café de la",
+    "titleHighlight": "Sierra Nevada",
+    "tagline": "Deleita tu fragancia, el aroma y el sabor",
+    "description": "Somos cultivadores y productores de café de especialidad en Pueblo Bello, Colombia. Inspirados en la raíz arhuaca de Kinki —lo real, lo verdadero y lo original— llevamos el alma de la Sierra directamente a tu taza con el esmero de Carlos.",
+    "ctaDiscover": "Descubrir Nuestro Café",
+    "ctaStory": "Conocer la Historia",
+    "badgeSpecialty": "100% Café de Especialidad",
+    "producerBadge": "Productor",
+    "roastBadge": "Tostión Media",
+    "roastBadgeSub": "Aroma & Fragancia",
+    "statOriginLabel": "Origen",
+    "statOriginValue": "Pueblo Bello, Cesar",
+    "statRoastLabel": "Tostión",
+    "statRoastValue": "Media Artesanal",
+    "statHeritageLabel": "Herencia",
+    "statHeritageValue": "Raíz Arhuaca",
+    "scrollHint": "Descubre la historia"
+  },
+  "kinki": {
+    "badge": "Identidad & Raíz",
+    "title": "El Significado de",
+    "titleHighlight": "Kinki",
+    "subtitle": "En la lengua ancestral del pueblo Arhuaco de la Sierra Nevada de Santa Marta, la palabra Kinki significa:",
+    "quote": "Real. Verdadero. Original.",
+    "p1": "Para Carlos y su familia, Kafé Kinki no es solo una marca de café: es una declaración de origen, identidad y respeto por la tierra sagrada de la Sierra Nevada. Las raíces indígenas de Carlos guían cada decisión en el cafetal, entendiendo que el café es un vínculo vivo entre las montañas, la niebla y las manos que lo cultivan.",
+    "p2": "Nombrar a nuestro café Kinki es honrar lo genuino: café sin aditivos, sin atajos industriales, cultivado bajo la sombra de árboles nativos y cosechado a mano con paciencia y verdad.",
+    "pillars": {
+      "kinki": {
+        "title": "Kinki",
+        "desc": "Lo real, lo verdadero y lo original. La filosofía de transparencia y autenticidad en cada grano."
+      },
+      "puebloBello": {
+        "title": "Pueblo Bello",
+        "desc": "El lugar sagrado en las faldas de la Sierra, cuna de agua pura y tierras fértiles."
+      },
+      "sierraNevada": {
+        "title": "Sierra Nevada",
+        "desc": "La montaña costera más alta del mundo, hogar ancestral y microclima bendecido."
+      },
+      "carlos": {
+        "title": "Carlos",
+        "desc": "Caficultor y productor de raíces indígenas que plasma su cuidado y respeto en cada lote."
+      },
+      "cafe": {
+        "title": "El Café",
+        "desc": "El fruto honesto que une la tierra, la herencia milenaria y la experiencia en tu taza."
+      }
+    }
+  },
+  "story": {
+    "badge": "Nuestra Historia",
+    "title": "De nuestra tierra",
+    "titleHighlight": "a tu taza.",
+    "producerStamp": "El caficultor detrás de cada grano",
+    "p1": "Detrás de cada paquete de Kafé Kinki está Carlos, cultivador y productor nacido en la región de Pueblo Bello, Cesar. Su relación con el café no comenzó en una oficina, sino en los senderos de montaña de la Sierra Nevada de Santa Marta.",
+    "p2": "A diferencia del café masivo, Kafé Kinki es fruto de un trabajo independiente y artesanal. Cada planta es sembrada, abonada de forma natural y cuidada con dedicación, preservando la biodiversidad del entorno.",
+    "quote": "Cultivar café de especialidad no es solo un oficio, es la forma en que honramos nuestra tierra y compartimos con el mundo el aroma auténtico de la Sierra.",
+    "values": {
+      "smallProducerTitle": "Pequeño Productor Independiente",
+      "smallProducerDesc": "Trato personal y directo, sin intermediarios corporativos.",
+      "originTitle": "Pueblo Bello, Cesar",
+      "originDesc": "Enclave cafetero en el corazón de la Sierra Nevada."
+    },
+    "followLink": "Acompaña a Carlos en su día a día en @kafe_kinki"
+  },
+  "origin": {
+    "badge": "El Viaje del Origen",
+    "title": "De la Sierra Nevada a tu taza,",
+    "titleHighlight": "paso a paso.",
+    "subtitle": "La autenticidad de Kafé Kinki nace en la geografía sagrada de Pueblo Bello y en el respeto por cada etapa del grano.",
+    "locationBannerTitle": "Sierra Nevada de Santa Marta",
+    "locationBannerDesc": "Tierra de nieblas matutinas, suelos fértiles de montaña y respeto ancestral donde Carlos cultiva con devoción.",
+    "originUniqueBadge": "100% Origen Único",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Pueblo Bello",
+        "location": "Cesar, Colombia",
+        "desc": "El punto de partida en las faldas de la Sierra Nevada. Un territorio fértil rodeado de vegetación exuberante y tradición cafetera.",
+        "metric": "Pueblo Cafetero"
+      },
+      {
+        "step": "02",
+        "title": "Sierra Nevada de Santa Marta",
+        "location": "Microclima de Montaña",
+        "desc": "La montaña sagrada genera corrientes de aire fresco, nieblas y suelos ricos que permiten maduraciones lentas y sabores dulces.",
+        "metric": "Microclima Único"
+      },
+      {
+        "step": "03",
+        "title": "Cultivo y Sombrío Natural",
+        "location": "Cafetales de Carlos",
+        "desc": "Los cafetos crecen protegidos bajo la sombra de árboles nativos, enriqueciendo la biodiversidad y protegiendo el suelo.",
+        "metric": "Sombrío Natural"
+      },
+      {
+        "step": "04",
+        "title": "Cosecha Manual Selectiva",
+        "location": "Maduración Óptima",
+        "desc": "Cada cereza se recolecta a mano únicamente en su punto exacto de madurez roja, garantizando solo frutos sanos y dulces.",
+        "metric": "Recolección a Mano"
+      },
+      {
+        "step": "05",
+        "title": "Beneficio y Secado al Sol",
+        "location": "Patios y Camas de Secado",
+        "desc": "Proceso cuidadoso donde el grano respira y se seca paulatinamente con la brisa de la sierra, reteniendo sus notas aromáticas.",
+        "metric": "Secado Artesanal"
+      },
+      {
+        "step": "06",
+        "title": "Tu Taza de Café",
+        "location": "En tu Mesa",
+        "desc": "Una experiencia auténtica, Kinki (real y verdadera), directa del campo a tu taza con el sello de su productor.",
+        "metric": "Directo del Productor"
+      }
+    ],
+    "stageLabel": "Etapa"
+  },
+  "coffee": {
+    "badge": "Café de Especialidad 100% Colombiano",
+    "title": "Nuestras",
+    "titleHighlight": "Presentaciones",
+    "subtitle": "Cultivado, seleccionado y tostado de forma artesanal. Disponible en grano entero para los amantes del molido fresco, y en café molido listo para disfrutar.",
+    "tabWhole": "Grano Entero (Whole Bean)",
+    "tabGround": "Molido (Ground)",
+    "sizesLabel": "Tamaños Disponibles",
+    "bagLabel": "Bolsa",
+    "inquireButton": "Consultar con Carlos",
+    "freshRoastNote": "Lotes artesanales con tostión fresca por encargo.",
+    "specOrigin": "Origen",
+    "specProducer": "Productor",
+    "specRoast": "Tostión",
+    "specPresentation": "Presentación",
+    "specComposition": "Composición",
+    "wholeBean": {
+      "name": "Kafé Kinki — Grano Entero",
+      "subtitle": "Café Artesanal de la Sierra Nevada",
+      "grindType": "Grano Entero",
+      "roastLevel": "Tostión Media Artesanal",
+      "tagline": "Conserva toda la frescura, los aceites esenciales y la fragancia intacta.",
+      "description": "Café 100% colombiano de especialidad, cultivado bajo sombrío natural y seleccionado a mano por Carlos. En presentación de grano entero para moler fresco en cada preparación y deleitar el aroma y sabor de la Sierra Nevada.",
+      "badge": "100% Café Artesanal"
+    },
+    "ground": {
+      "name": "Kafé Kinki — Café Molido",
+      "subtitle": "Café Artesanal de la Sierra Nevada",
+      "grindType": "Molido Fresco",
+      "roastLevel": "Tostión Media Artesanal",
+      "tagline": "Listo para infusionar en métodos tradicionales, prensa francesa, filtro o moka.",
+      "description": "El mismo café especial de Pueblo Bello, molido con precisión artesanal para brindarte una taza balanceada, aromática y llena de cuerpo desde el primer vertido.",
+      "badge": "Listo para Preparar"
+    }
+  },
+  "process": {
+    "badge": "Oficio & Dedicación",
+    "title": "El Cuidado en",
+    "titleHighlight": "Cada Detalle",
+    "subtitle": "Hacer café especial no es un proceso industrial masivo; es un compromiso diario de paciencia, atención y respeto por la tierra en Pueblo Bello.",
+    "stages": [
+      {
+        "number": "01",
+        "title": "El Cafetal y la Siembra",
+        "subtitle": "Cuidado diario de cada planta",
+        "description": "En Pueblo Bello, cada planta de café es cuidada con atención continua. Carlos camina sus lotes inspeccionando la salud de las hojas, la floración y el desarrollo de las cerezas bajo el clima de la Sierra.",
+        "badge": "Origen & Tierra",
+        "highlights": ["Cultivo bajo sombra natural", "Suelos ricos en nutrientes de la Sierra", "Respeto por el entorno natural"]
+      },
+      {
+        "number": "02",
+        "title": "La Cosecha Manual",
+        "subtitle": "Solo cerezas en punto de caramelo",
+        "description": "La recolección es una labor paciente y manual. No se usan máquinas invasivas: la mirada y la mano experta escogen únicamente las cerezas de rojo intenso.",
+        "badge": "Recolección Manual",
+        "highlights": ["Selección manual cereza por cereza", "Punto óptimo de dulzura y madurez", "Cuidado del cafeto"]
+      },
+      {
+        "number": "03",
+        "title": "Beneficio y Secado Natural",
+        "subtitle": "El grano reposa bajo el sol de la sierra",
+        "description": "El café se despulpa y se extiende en camas y patios ventilados. El sol andino y las corrientes de aire de la montaña van secando el grano lentamente hasta alcanzar la humedad ideal.",
+        "badge": "Secado al Sol",
+        "highlights": ["Control de humedad artesanal", "Ventilación natural de montaña", "Cuidado riguroso del pergamino"]
+      },
+      {
+        "number": "04",
+        "title": "Tostión Media Artesanal",
+        "subtitle": "Resaltando fragancia, aroma y sabor",
+        "description": "La tostión media es el punto donde el café expresa su verdadera identidad: ni demasiado clara ni quemada. Se busca el equilibrio justo para deleitar el aroma y la fragancia que caracteriza a Kafé Kinki.",
+        "badge": "Tostión Media",
+        "highlights": ["Tueste en pequeños lotes", "Curva de tueste balanceada", "Empaque con válvula para máxima frescura"]
+      }
+    ]
+  },
+  "instagram": {
+    "badge": "Comunidad & Vida en el Cafetal",
+    "title": "Sigue el viaje de",
+    "subtitle": "Descubre el día a día en Pueblo Bello, la cosecha de Carlos y los momentos detrás de cada lote.",
+    "button": "Seguir en Instagram",
+    "viewOnIg": "Ver en Instagram",
+    "bioSnippet": "Somos cultivadores y productores de café de especialidad. Ubicados en Pueblo Bello, Sierra Nevada."
+  },
+  "contact": {
+    "badge": "Contacto Directo",
+    "title": "Hablemos de",
+    "titleHighlight": "buen café.",
+    "description": "¿Deseas conocer más sobre nuestras cosechas, consultar disponibilidad de lotes o escribirle a Carlos? Escríbenos y con gusto te responderemos.",
+    "locationTitle": "Ubicación & Origen",
+    "locationValue": "Pueblo Bello, Cesar",
+    "locationSub": "Sierra Nevada de Santa Marta, Colombia",
+    "igTitle": "Instagram Oficial",
+    "igSub": "Mensajes directos y novedades diarias",
+    "directTitle": "Atención Directa",
+    "directValue": "Carlos — Productor",
+    "directSub": "Café artesanal en grano entero y molido",
+    "formTitle": "Envía un mensaje a Carlos",
+    "formSub": "Completa este breve formulario y te responderemos a la brevedad.",
+    "nameLabel": "Tu Nombre",
+    "namePlaceholder": "Ej. Sofia Gómez",
+    "contactLabel": "Correo Electrónico / WhatsApp",
+    "contactPlaceholder": "tu@email.com o +57...",
+    "interestLabel": "Interés Principal",
+    "interestWhole": "Café en Grano Entero (250g / 500g)",
+    "interestGround": "Café Molido Fresco (250g / 500g)",
+    "interestOrigin": "Información de Origen & Cosecha",
+    "interestPartnership": "Colaboraciones & Alianzas",
+    "messageLabel": "Tu Mensaje o Pregunta",
+    "messagePlaceholder": "Cuéntanos qué te gustaría saber sobre Kafé Kinki...",
+    "submitButton": "Enviar Mensaje a Carlos",
+    "successTitle": "¡Mensaje Recibido!",
+    "successDesc": "Gracias por tu interés en Kafé Kinki. Carlos o nuestro equipo se pondrán en contacto contigo muy pronto.",
+    "sendAnother": "Enviar otro mensaje"
+  },
+  "footer": {
+    "tagline": "Deleita tu fragancia, el aroma y el sabor",
+    "description": "Café de especialidad 100% colombiano, cultivado y producido por Carlos en el municipio de Pueblo Bello, en el corazón de la Sierra Nevada de Santa Marta.",
+    "navTitle": "Navegación",
+    "originTitle": "Origen Garantizado",
+    "originDesc": "Tierra sagrada, microclima de montaña y tradición cafetera artesanal sin procesos industriales invasivos.",
+    "badgeArtisan": "100% Café Artesanal",
+    "badgeRoast": "Tostión Media",
+    "rights": "Kafé Kinki. Cultivado con cariño en Pueblo Bello, Colombia.",
+    "backToTop": "Volver arriba"
+  }
+}
