@@ -26,7 +26,6 @@ export default function Navbar() {
     { label: t("story"), href: "#historia" },
     { label: t("origin"), href: "#origen" },
     { label: t("coffee"), href: "#cafe" },
-    { label: t("process"), href: "#proceso" },
     { label: t("instagram"), href: "#instagram" },
     { label: t("contact"), href: "#contacto" },
   ];

@@ -66,11 +66,6 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#proceso" className="hover:text-white transition-colors">
-                  {tNav("process")}
-                </a>
-              </li>
-              <li>
                 <a href="#instagram" className="hover:text-white transition-colors">
                   {tNav("instagram")}
                 </a>

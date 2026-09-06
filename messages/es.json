@@ -71,7 +71,7 @@
   "story": {
     "badge": "Nuestra Historia",
     "title": "De nuestra tierra",
-    "titleHighlight": "a tu taza.",
+    "titleHighlight": "a tu taza",
     "producerStamp": "El caficultor detrás de cada grano",
     "p1": "Detrás de cada paquete de Kafé Kinki está Carlos, cultivador y productor nacido en la región de Pueblo Bello, Cesar. Su relación con el café no comenzó en una oficina, sino en los senderos de montaña de la Sierra Nevada de Santa Marta.",
     "p2": "A diferencia del café masivo, Kafé Kinki es fruto de un trabajo independiente y artesanal. Cada planta es sembrada, abonada de forma natural y cuidada con dedicación, preservando la biodiversidad del entorno.",
@@ -87,56 +87,82 @@
   "origin": {
     "badge": "El Viaje del Origen",
     "title": "De la Sierra Nevada a tu taza,",
-    "titleHighlight": "paso a paso.",
+    "titleHighlight": "paso a paso",
     "subtitle": "La autenticidad de Kafé Kinki nace en la geografía sagrada de Pueblo Bello y en el respeto por cada etapa del grano.",
-    "locationBannerTitle": "Sierra Nevada de Santa Marta",
-    "locationBannerDesc": "Tierra de nieblas matutinas, suelos fértiles de montaña y respeto ancestral donde Carlos cultiva con devoción.",
-    "originUniqueBadge": "100% Origen Único",
-    "steps": [
+    "stages": [
       {
-        "step": "01",
+        "number": "01",
         "title": "Pueblo Bello",
-        "location": "Cesar, Colombia",
-        "desc": "El punto de partida en las faldas de la Sierra Nevada. Un territorio fértil rodeado de vegetación exuberante y tradición cafetera.",
-        "metric": "Pueblo Cafetero"
+        "subtitle": "Cesar, Colombia • Enclave de Montaña",
+        "description": "El punto de partida en las faldas de la Sierra Nevada. Un enclave agrícola privilegiado rodeado de vegetación exuberante, agua pura y profunda tradición cafetera.",
+        "badge": "Pueblo Cafetero",
+        "highlights": [
+          "Enclave agrícola fértil en las faldas de la Sierra",
+          "Tradición cafetera artesanal e independiente",
+          "Suelos ricos y fuentes naturales de agua"
+        ]
       },
       {
-        "step": "02",
+        "number": "02",
         "title": "Sierra Nevada de Santa Marta",
-        "location": "Microclima de Montaña",
-        "desc": "La montaña sagrada genera corrientes de aire fresco, nieblas y suelos ricos que permiten maduraciones lentas y sabores dulces.",
-        "metric": "Microclima Único"
+        "subtitle": "Montaña Sagrada • Altitud y Niebla",
+        "description": "La montaña costera más alta del mundo genera corrientes de aire fresco, nieblas matutinas y microclimas únicos que permiten maduraciones lentas, balanceadas y dulces.",
+        "badge": "Microclima Único",
+        "highlights": [
+          "Microclima de montaña costera sin igual",
+          "Niebla matutina y brisa fresca continua",
+          "Maduración lenta que concentra azúcares y aromas"
+        ]
       },
       {
-        "step": "03",
+        "number": "03",
         "title": "Cultivo y Sombrío Natural",
-        "location": "Cafetales de Carlos",
-        "desc": "Los cafetos crecen protegidos bajo la sombra de árboles nativos, enriqueciendo la biodiversidad y protegiendo el suelo.",
-        "metric": "Sombrío Natural"
+        "subtitle": "Cafetales de Carlos • Cuidado Diario",
+        "description": "En Pueblo Bello, los cafetos crecen protegidos bajo la sombra de árboles nativos. Carlos camina sus lotes a diario, cuidando la salud de las hojas, la floración y el suelo vivo.",
+        "badge": "Sombrío Natural",
+        "highlights": [
+          "Cultivo bajo doseles de sombra natural",
+          "Preservación de la biodiversidad y el suelo",
+          "Cuidado diario y respetuoso de cada planta"
+        ]
       },
       {
-        "step": "04",
+        "number": "04",
         "title": "Cosecha Manual Selectiva",
-        "location": "Maduración Óptima",
-        "desc": "Cada cereza se recolecta a mano únicamente en su punto exacto de madurez roja, garantizando solo frutos sanos y dulces.",
-        "metric": "Recolección a Mano"
+        "subtitle": "Maduración Óptima • Selección Rigurosa",
+        "description": "La recolección es una labor paciente y manual. No se usan máquinas que maltraten el cafeto: la mirada y la mano experta escogen únicamente las cerezas en su punto rojo vivo.",
+        "badge": "Recolección a Mano",
+        "highlights": [
+          "Selección manual cereza por cereza",
+          "Cosecha exclusiva en punto óptimo de madurez",
+          "Cuidado riguroso de la integridad de la planta"
+        ]
       },
       {
-        "step": "05",
+        "number": "05",
         "title": "Beneficio y Secado al Sol",
-        "location": "Patios y Camas de Secado",
-        "desc": "Proceso cuidadoso donde el grano respira y se seca paulatinamente con la brisa de la sierra, reteniendo sus notas aromáticas.",
-        "metric": "Secado Artesanal"
+        "subtitle": "Patios y Camas • Sol de la Sierra",
+        "description": "El café se despulpa y se extiende en camas y patios ventilados. El sol andino y las corrientes de aire de la montaña van secando el grano lentamente hasta alcanzar la humedad ideal.",
+        "badge": "Secado Artesanal",
+        "highlights": [
+          "Secado paulatino en camas elevadas ventiladas",
+          "Control de humedad artesanal de montaña",
+          "Retención de las notas aromáticas naturales"
+        ]
       },
       {
-        "step": "06",
+        "number": "06",
         "title": "Tu Taza de Café",
-        "location": "En tu Mesa",
-        "desc": "Una experiencia auténtica, Kinki (real y verdadera), directa del campo a tu taza con el sello de su productor.",
-        "metric": "Directo del Productor"
+        "subtitle": "En tu Mesa • Tostión Media Fresca",
+        "description": "Una experiencia Kinki (real, verdadera y original), tostada en pequeños lotes con tostión media para exaltar fragancia, aroma y sabor. Directo del campo a tu mesa.",
+        "badge": "Directo del Productor",
+        "highlights": [
+          "Tostión media que exalta fragancia, aroma y sabor",
+          "Presentaciones en grano entero y molido fresco",
+          "Café 100% artesanal directo del productor"
+        ]
       }
-    ],
-    "stageLabel": "Etapa"
+    ]
   },
   "coffee": {
     "badge": "Café de Especialidad 100% Colombiano",
@@ -185,7 +211,11 @@
         "subtitle": "Cuidado diario de cada planta",
         "description": "En Pueblo Bello, cada planta de café es cuidada con atención continua. Carlos camina sus lotes inspeccionando la salud de las hojas, la floración y el desarrollo de las cerezas bajo el clima de la Sierra.",
         "badge": "Origen & Tierra",
-        "highlights": ["Cultivo bajo sombra natural", "Suelos ricos en nutrientes de la Sierra", "Respeto por el entorno natural"]
+        "highlights": [
+          "Cultivo bajo sombra natural",
+          "Suelos ricos en nutrientes de la Sierra",
+          "Respeto por el entorno natural"
+        ]
       },
       {
         "number": "02",
@@ -193,7 +223,11 @@
         "subtitle": "Solo cerezas en punto de caramelo",
         "description": "La recolección es una labor paciente y manual. No se usan máquinas invasivas: la mirada y la mano experta escogen únicamente las cerezas de rojo intenso.",
         "badge": "Recolección Manual",
-        "highlights": ["Selección manual cereza por cereza", "Punto óptimo de dulzura y madurez", "Cuidado del cafeto"]
+        "highlights": [
+          "Selección manual cereza por cereza",
+          "Punto óptimo de dulzura y madurez",
+          "Cuidado del cafeto"
+        ]
       },
       {
         "number": "03",
@@ -201,7 +235,11 @@
         "subtitle": "El grano reposa bajo el sol de la sierra",
         "description": "El café se despulpa y se extiende en camas y patios ventilados. El sol andino y las corrientes de aire de la montaña van secando el grano lentamente hasta alcanzar la humedad ideal.",
         "badge": "Secado al Sol",
-        "highlights": ["Control de humedad artesanal", "Ventilación natural de montaña", "Cuidado riguroso del pergamino"]
+        "highlights": [
+          "Control de humedad artesanal",
+          "Ventilación natural de montaña",
+          "Cuidado riguroso del pergamino"
+        ]
       },
       {
         "number": "04",
@@ -209,7 +247,11 @@
         "subtitle": "Resaltando fragancia, aroma y sabor",
         "description": "La tostión media es el punto donde el café expresa su verdadera identidad: ni demasiado clara ni quemada. Se busca el equilibrio justo para deleitar el aroma y la fragancia que caracteriza a Kafé Kinki.",
         "badge": "Tostión Media",
-        "highlights": ["Tueste en pequeños lotes", "Curva de tueste balanceada", "Empaque con válvula para máxima frescura"]
+        "highlights": [
+          "Tueste en pequeños lotes",
+          "Curva de tueste balanceada",
+          "Empaque con válvula para máxima frescura"
+        ]
       }
     ]
   },
@@ -224,7 +266,7 @@
   "contact": {
     "badge": "Contacto Directo",
     "title": "Hablemos de",
-    "titleHighlight": "buen café.",
+    "titleHighlight": "buen café",
     "description": "¿Deseas conocer más sobre nuestras cosechas, consultar disponibilidad de lotes o escribirle a Carlos? Escríbenos y con gusto te responderemos.",
     "locationTitle": "Ubicación & Origen",
     "locationValue": "Pueblo Bello, Cesar",

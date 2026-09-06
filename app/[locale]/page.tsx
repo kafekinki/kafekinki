@@ -4,7 +4,6 @@ import KinkiMeaning from "@/components/KinkiMeaning";
 import Story from "@/components/Story";
 import Origin from "@/components/Origin";
 import Coffee from "@/components/Coffee";
-import Process from "@/components/Process";
 import InstagramFeed from "@/components/InstagramFeed";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -18,7 +17,6 @@ export default function HomePage() {
       <Story />
       <Origin />
       <Coffee />
-      <Process />
       <InstagramFeed />
       <Contact />
       <Footer />

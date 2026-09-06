@@ -71,7 +71,7 @@
   "story": {
     "badge": "Our Story",
     "title": "From our land",
-    "titleHighlight": "to your cup.",
+    "titleHighlight": "to your cup",
     "producerStamp": "The grower behind every bean",
     "p1": "Behind every bag of Kafé Kinki is Carlos, a coffee grower and producer from Pueblo Bello, Cesar. His bond with coffee was forged not in a corporate boardroom, but along the mountain trails of the Sierra Nevada de Santa Marta.",
     "p2": "Unlike mass industrial coffee, Kafé Kinki is the result of independent, small-batch craftsmanship. Every coffee tree is planted, naturally nourished, and cared for by hand, safeguarding the living biodiversity of the mountain ecosystem.",
@@ -87,56 +87,82 @@
   "origin": {
     "badge": "The Origin Journey",
     "title": "From the Sierra Nevada to your cup,",
-    "titleHighlight": "step by step.",
-    "subtitle": "Kafé Kinki's authenticity stems from the unique geography of Pueblo Bello and respect for every stage of the coffee's journey.",
-    "locationBannerTitle": "Sierra Nevada de Santa Marta",
-    "locationBannerDesc": "A realm of morning mists, fertile mountain soils, and ancestral reverence where Carlos grows with devotion.",
-    "originUniqueBadge": "100% Single Origin",
-    "steps": [
+    "titleHighlight": "step by step",
+    "subtitle": "Kafé Kinki's authenticity stems from the sacred geography of Pueblo Bello and respect for every stage of the coffee's transformation.",
+    "stages": [
       {
-        "step": "01",
+        "number": "01",
         "title": "Pueblo Bello",
-        "location": "Cesar, Colombia",
-        "desc": "The starting point in the foothills of the Sierra Nevada. A fertile region blessed with lush vegetation and coffee-growing heritage.",
-        "metric": "Coffee Town"
+        "subtitle": "Cesar, Colombia • Mountain Foothills",
+        "description": "The starting point in the foothills of the Sierra Nevada. A fertile agricultural haven surrounded by lush vegetation, pure water, and profound coffee-growing heritage.",
+        "badge": "Coffee Town",
+        "highlights": [
+          "Fertile mountain foothills in the Sierra Nevada",
+          "Independent, small-batch coffee heritage",
+          "Rich volcanic soils and pristine water sources"
+        ]
       },
       {
-        "step": "02",
+        "number": "02",
         "title": "Sierra Nevada de Santa Marta",
-        "location": "Mountain Microclimate",
-        "desc": "The sacred mountain creates cool air currents, misty mornings, and nutrient-rich volcanic soils for slow, sweet cherry maturation.",
-        "metric": "Unique Microclimate"
+        "subtitle": "Sacred Mountain • Altitude & Clouds",
+        "description": "The highest coastal mountain on Earth creates fresh air currents, morning mists, and unique microclimates that foster slow, sweet, and balanced bean maturation.",
+        "badge": "Unique Microclimate",
+        "highlights": [
+          "Unrivaled coastal mountain microclimate",
+          "Morning mists and constant mountain breeze",
+          "Slow cherry maturation concentrating natural sugars"
+        ]
       },
       {
-        "step": "03",
+        "number": "03",
         "title": "Shade-Grown Farming",
-        "location": "Carlos's Coffee Farm",
-        "desc": "Coffee trees thrive protected under native canopy shade, fostering natural biodiversity and safeguarding mountain soil.",
-        "metric": "Natural Canopy"
+        "subtitle": "Carlos's Coffee Farm • Daily Stewardship",
+        "description": "In Pueblo Bello, coffee trees thrive sheltered beneath native forest canopies. Carlos walks his plots daily, tending leaf health, blossoming flowers, and living soils.",
+        "badge": "Natural Canopy",
+        "highlights": [
+          "Shade-grown under native forest canopies",
+          "Safeguarding local biodiversity and mountain soil",
+          "Gentle, respectful daily care of every tree"
+        ]
       },
       {
-        "step": "04",
+        "number": "04",
         "title": "Selective Hand Harvesting",
-        "location": "Peak Ripeness",
-        "desc": "Every cherry is hand-picked exclusively at peak red ripeness, ensuring only wholesome, naturally sweet fruits are gathered.",
-        "metric": "Hand Picked"
+        "subtitle": "Peak Ripeness • Rigorous Selection",
+        "description": "Harvesting is patient manual labor. No harsh mechanical harvesters are used: trained eyes and gentle hands select exclusively the deep-crimson ripe cherries.",
+        "badge": "Hand Harvest",
+        "highlights": [
+          "Cherry-by-cherry selective hand picking",
+          "Harvested exclusively at optimal sweetness",
+          "Full protection of tree health and future crops"
+        ]
       },
       {
-        "step": "05",
+        "number": "05",
         "title": "Sun Drying on Raised Beds",
-        "location": "Drying Patios & Beds",
-        "desc": "A meticulous process where beans breathe and gently dry under the Andean sun and mountain breeze, locking in aromatic sugars.",
-        "metric": "Artisanal Drying"
+        "subtitle": "Drying Patios & Beds • Andean Sunlight",
+        "description": "The coffee is depulped and spread over ventilated raised drying beds. Andean sunshine and mountain breezes gently dry the beans to ideal moisture levels.",
+        "badge": "Sun Dried",
+        "highlights": [
+          "Slow drying on ventilated African raised beds",
+          "Artisanal mountain moisture monitoring",
+          "Preservation of delicate aroma and essential oils"
+        ]
       },
       {
-        "step": "06",
+        "number": "06",
         "title": "Your Cup of Coffee",
-        "location": "At Your Table",
-        "desc": "A genuine Kinki (real and true) experience, straight from the Colombian countryside to your cup with Carlos's signature seal.",
-        "metric": "Direct from Producer"
+        "subtitle": "At Your Table • Fresh Medium Roast",
+        "description": "A genuine Kinki (real, true, and original) experience, roasted in small batches to highlight fragrance, aroma, and flavor. Straight from the mountain to your table.",
+        "badge": "Direct from Producer",
+        "highlights": [
+          "Medium roast highlighting fragrance, aroma, and body",
+          "Available in whole bean and precision ground",
+          "100% artisanal coffee direct from Carlos"
+        ]
       }
-    ],
-    "stageLabel": "Stage"
+    ]
   },
   "coffee": {
     "badge": "100% Colombian Specialty Coffee",
@@ -173,46 +199,6 @@
       "badge": "Ready to Brew"
     }
   },
-  "process": {
-    "badge": "Craft & Dedication",
-    "title": "Care in",
-    "titleHighlight": "Every Detail",
-    "subtitle": "Producing specialty coffee is not an industrial assembly line; it is a daily commitment of patience, mindfulness, and respect for the land in Pueblo Bello.",
-    "stages": [
-      {
-        "number": "01",
-        "title": "The Farm & The Soil",
-        "subtitle": "Daily care of each living plant",
-        "description": "In Pueblo Bello, every coffee tree is attended with continuous care. Carlos walks his plots inspecting leaf vitality, blossoming flowers, and cherry growth under the mountain climate.",
-        "badge": "Origin & Land",
-        "highlights": ["Shade-grown under native canopy", "Mineral-rich Sierra soils", "Deep ecological balance"]
-      },
-      {
-        "number": "02",
-        "title": "Selective Hand Harvesting",
-        "subtitle": "Only cherries at peak sweetness",
-        "description": "Harvesting is patient manual labor. No mechanical harvesters are used: trained eyes and gentle hands select exclusively the deep-crimson ripe cherries.",
-        "badge": "Hand Harvest",
-        "highlights": ["Cherry-by-cherry manual selection", "Optimal sugar concentration", "Gentle tree care"]
-      },
-      {
-        "number": "03",
-        "title": "Natural Washing & Sun Drying",
-        "subtitle": "Beans resting under the Andean sky",
-        "description": "The coffee is depulped and spread over ventilated African raised beds. Andean sunshine and mountain breezes gently dry the beans to ideal moisture levels.",
-        "badge": "Sun Dried",
-        "highlights": ["Artisanal moisture control", "Natural mountain airflow", "Careful parchment protection"]
-      },
-      {
-        "number": "04",
-        "title": "Artisanal Medium Roast",
-        "subtitle": "Highlighting fragrance, aroma, and body",
-        "description": "A balanced medium roast allows the coffee to express its true origin profile: neither underdeveloped nor burnt. It unlocks the vibrant aroma and delicate fragrance defining Kafé Kinki.",
-        "badge": "Medium Roast",
-        "highlights": ["Small-batch craft roasting", "Balanced roasting curve", "Sealed with degassing valve for freshness"]
-      }
-    ]
-  },
   "instagram": {
     "badge": "Community & Life on the Farm",
     "title": "Follow the Journey of",
@@ -224,7 +210,7 @@
   "contact": {
     "badge": "Direct Contact",
     "title": "Let's talk",
-    "titleHighlight": "good coffee.",
+    "titleHighlight": "good coffee",
     "description": "Would you like to learn more about our harvests, check batch availability, or say hello to Carlos? Reach out to us and we'll gladly respond.",
     "locationTitle": "Location & Origin",
     "locationValue": "Pueblo Bello, Cesar",
