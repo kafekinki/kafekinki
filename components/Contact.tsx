@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { BRAND_DATA } from "@/lib/data";
 import { useTranslations } from "next-intl";
-import { MapPin, MessageCircle, Send, CheckCircle2, Coffee } from "lucide-react";
+import { MapPin, MessageCircle, Send, CheckCircle2, Coffee, ChevronDown } from "lucide-react";
 import InstagramIcon from "./icons/InstagramIcon";
 
 export default function Contact() {
@@ -187,17 +187,22 @@ export default function Contact() {
                     <label htmlFor="interest" className="block text-xs font-bold text-[#1C1512] uppercase tracking-wider mb-2">
                       {t("interestLabel")}
                     </label>
-                    <select
-                      id="interest"
-                      value={formData.interest}
-                      onChange={(e) => setFormData({ ...formData, interest: e.target.value })}
-                      className="w-full px-4 py-3 rounded-xl border border-[#E8DFD3] text-sm text-[#1C1512] focus:outline-none focus:ring-2 focus:ring-[#8C2D19]/20 focus:border-[#8C2D19] transition-all bg-[#FAF6F0]/50"
-                    >
-                      <option value="whole">{t("interestWhole")}</option>
-                      <option value="ground">{t("interestGround")}</option>
-                      <option value="origin">{t("interestOrigin")}</option>
-                      <option value="partnership">{t("interestPartnership")}</option>
-                    </select>
+                    <div className="relative">
+                      <select
+                        id="interest"
+                        value={formData.interest}
+                        onChange={(e) => setFormData({ ...formData, interest: e.target.value })}
+                        className="w-full px-4 py-3 pr-10 rounded-xl border border-[#E8DFD3] text-sm text-[#1C1512] focus:outline-none focus:ring-2 focus:ring-[#8C2D19]/20 focus:border-[#8C2D19] transition-all bg-[#FAF6F0]/50 appearance-none cursor-pointer"
+                      >
+                        <option value="whole">{t("interestWhole")}</option>
+                        <option value="ground">{t("interestGround")}</option>
+                        <option value="origin">{t("interestOrigin")}</option>
+                        <option value="partnership">{t("interestPartnership")}</option>
+                      </select>
+                      <div className="pointer-events-none absolute right-4 top-1/2 -translate-y-1/2 text-[#8C2D19]">
+                        <ChevronDown className="w-4 h-4" />
+                      </div>
+                    </div>
                   </div>
 
                   <div>
