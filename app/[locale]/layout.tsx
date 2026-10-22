@@ -32,7 +32,7 @@ export async function generateMetadata({
     title: t("title"),
     description: t("description"),
     keywords: t("keywords").split(", "),
-    authors: [{ name: "Carlos - Kafé Kinki" }],
+    authors: [{ name: "Familia Pérez Arroyo - Kafé Kinki" }],
     openGraph: {
       title: t("title"),
       description: t("description"),
@@ -101,9 +101,9 @@ export default async function LocaleLayout({
       addressCountry: "CO",
     },
     founder: {
-      "@type": "Person",
-      name: "Carlos",
-      jobTitle: "Caficultor & Productor",
+      "@type": "Organization",
+      name: "Familia Pérez Arroyo",
+      jobTitle: "Caficultores & Productores",
     },
     sameAs: ["https://www.instagram.com/kafe_kinki/"],
   };

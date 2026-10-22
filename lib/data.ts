@@ -5,8 +5,8 @@ export const BRAND_DATA = {
   legalName: "Kafe Kinki Specialty Coffee Colombia",
   tagline: "Deleita tu fragancia, el aroma y el sabor",
   subtagline: "Cultivado y producido con dedicación en Pueblo Bello, Sierra Nevada de Santa Marta, Colombia.",
-  producer: "Carlos",
-  role: "Caficultor & Productor",
+  producer: "Familia Pérez Arroyo",
+  role: "Caficultores & Productores",
   originCity: "Pueblo Bello",
   originRegion: "Cesar, Colombia",
   originMountain: "Sierra Nevada de Santa Marta",
@@ -27,16 +27,16 @@ export const COFFEE_PRODUCTS: CoffeeProduct[] = [
     grindType: "Grano Entero (Whole Bean)",
     roastLevel: "Tostión Media (Medium Roast)",
     origin: "Pueblo Bello, Cesar — Sierra Nevada de Santa Marta",
-    producer: "Carlos",
+    producer: "Familia Pérez Arroyo",
     tagline: "Conserva toda la frescura, los aceites esenciales y la fragancia intacta.",
     description:
-      "Café 100% colombiano de especialidad, cultivado bajo sombrío natural y seleccionado a mano por Carlos. En presentación de grano entero para moler fresco en cada preparación y disfrutar de todo su aroma y sabor característico de la Sierra Nevada.",
+      "Café 100% colombiano de especialidad, cultivado bajo sombrío natural y seleccionado a mano por la familia Pérez Arroyo. En presentación de grano entero para moler fresco en cada preparación y disfrutar de todo su aroma y sabor característico de la Sierra Nevada.",
     sizes: ["250g", "500g"],
     image: "/images/kafe-kinki-black-bag.jpg",
     badge: "100% Café Artesanal",
     specifications: [
       { label: "Origen", value: "Pueblo Bello, Sierra Nevada (Colombia)" },
-      { label: "Productor", value: "Carlos (Cultivador & Productor)" },
+      { label: "Productor", value: "Familia Pérez Arroyo (Cultivadores & Productores)" },
       { label: "Tostión", value: "Tostión Media Artesanal" },
       { label: "Presentación", value: "Grano Entero (Bolsa con válvula desgasificadora)" },
       { label: "Composición", value: "100% Café Colombiano" },
@@ -50,7 +50,7 @@ export const COFFEE_PRODUCTS: CoffeeProduct[] = [
     grindType: "Molido (Ground)",
     roastLevel: "Tostión Media (Medium Roast)",
     origin: "Pueblo Bello, Cesar — Sierra Nevada de Santa Marta",
-    producer: "Carlos",
+    producer: "Familia Pérez Arroyo",
     tagline: "Listo para infusionar en métodos tradicionales, prensa francesa, filtro o moka.",
     description:
       "El mismo café especial de Pueblo Bello, molido con precisión para brindarte una taza balanceada, aromática y llena de cuerpo desde el primer vertido. Empacado al vacío artesanal para proteger sus notas naturales.",
@@ -59,7 +59,7 @@ export const COFFEE_PRODUCTS: CoffeeProduct[] = [
     badge: "Listo para Preparar",
     specifications: [
       { label: "Origen", value: "Pueblo Bello, Sierra Nevada (Colombia)" },
-      { label: "Productor", value: "Carlos (Cultivador & Productor)" },
+      { label: "Productor", value: "Familia Pérez Arroyo (Cultivadores & Productores)" },
       { label: "Tostión", value: "Tostión Media Artesanal" },
       { label: "Presentación", value: "Molido Fresco (Bolsa hermética)" },
       { label: "Composición", value: "100% Café Colombiano" },
@@ -89,7 +89,7 @@ export const ORIGIN_JOURNEY: OriginStep[] = [
   {
     step: "03",
     title: "Cultivo y Sombrío Natural",
-    location: "Cafetales de Carlos",
+    location: "Cafetales de la Familia Pérez Arroyo",
     description:
       "Los cafetos crecen protegidos bajo doseles de árboles nativos, enriqueciendo la biodiversidad y protegiendo el suelo de la erosión.",
     metric: "Sombrío Natural",
@@ -118,7 +118,7 @@ export const ORIGIN_JOURNEY: OriginStep[] = [
     title: "Tu Taza de Café",
     location: "En tu Mesa",
     description:
-      "Una experiencia auténtica, directa del campo colombiano a tu taza, sin intermediarios corporativos y con el sello de su productor.",
+      "Una experiencia auténtica, directa del campo colombiano a tu taza, sin intermediarios corporativos y con el sello de su familia productora.",
     metric: "Directo del Productor",
     iconName: "Coffee",
   },
@@ -130,7 +130,7 @@ export const CRAFT_PROCESS: ProcessStage[] = [
     title: "El Cafetal y la Siembra",
     subtitle: "Cuidado diario de cada planta",
     description:
-      "En Pueblo Bello, cada planta de café es cuidada con atención continua. Carlos camina sus lotes inspeccionando la salud de las hojas, la floración y el desarrollo de las cerezas bajo el clima de la Sierra.",
+      "En Pueblo Bello, cada planta de café es cuidada con atención continua. La familia Pérez Arroyo recorre sus lotes inspeccionando la salud de las hojas, la floración y el desarrollo de las cerezas bajo el clima de la Sierra.",
     image: "/images/hero-sierra-nevada.jpg",
     badge: "Origen & Tierra",
     highlights: [
@@ -186,9 +186,9 @@ export const CRAFT_PROCESS: ProcessStage[] = [
 export const INSTAGRAM_POSTS: InstagramPost[] = [
   {
     id: "ig-1",
-    title: "Carlos en el Cafetal",
-    category: "Carlos / Productor",
-    caption: "Cuidando cada planta en Pueblo Bello. La pasión por el café se vive en el campo cada mañana. 🌿☕",
+    title: "En el Cafetal Familiar",
+    category: "Familia Pérez Arroyo / Productor",
+    caption: "Cuidando cada planta en Pueblo Bello. La pasión familiar por el café se vive en el campo cada mañana. 🌿☕",
     imageUrl: "/images/carlos-portrait.jpg",
     link: "https://www.instagram.com/kafe_kinki/",
   },

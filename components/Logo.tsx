@@ -17,15 +17,15 @@ export default function Logo({
     variant === "light"
       ? "text-white"
       : variant === "burgundy"
-      ? "text-[#8C2D19]"
-      : "text-[#1C1512]";
+        ? "text-[#8C2D19]"
+        : "text-[#1C1512]";
 
   const subtextColor =
     variant === "light"
       ? "text-amber-200/90"
       : variant === "burgundy"
-      ? "text-[#5A4C45]"
-      : "text-[#7E573C]";
+        ? "text-[#5A4C45]"
+        : "text-[#7E573C]";
 
   const iconBg =
     variant === "light" ? "bg-white/10 text-amber-300" : "bg-[#8C2D19]/10 text-[#8C2D19]";

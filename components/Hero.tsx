@@ -129,12 +129,12 @@ export default function Hero() {
                 </div>
               </div>
 
-              {/* Secondary Floating Card (Carlos the Producer) */}
-              <div className="absolute -bottom-6 -left-6 sm:-left-8 bg-white rounded-xl p-3 shadow-xl border border-[#E8DFD3] max-w-[210px] hidden sm:flex items-center gap-3 transform hover:-translate-y-1 transition-transform">
+              {/* Secondary Floating Card (Familia Pérez Arroyo) */}
+              <div className="absolute -bottom-6 -left-6 sm:-left-8 bg-white rounded-xl p-3 shadow-xl border border-[#E8DFD3] max-w-[240px] hidden sm:flex items-center gap-3 transform hover:-translate-y-1 transition-transform">
                 <div className="relative w-12 h-12 rounded-lg overflow-hidden shrink-0">
                   <Image
                     src="/images/carlos-portrait.jpg"
-                    alt="Carlos - Productor de Kafe Kinki"
+                    alt="Familia Pérez Arroyo - Productores de Kafé Kinki"
                     fill
                     sizes="48px"
                     className="object-cover"
@@ -144,7 +144,7 @@ export default function Hero() {
                   <div className="text-[11px] font-semibold text-[#8C2D19] uppercase tracking-wide">
                     {t("producerBadge")}
                   </div>
-                  <div className="text-xs font-bold text-[#1C1512]">Carlos</div>
+                  <div className="text-xs font-bold text-[#1C1512]">Familia Pérez Arroyo</div>
                   <div className="text-[10px] text-[#84756D]">Pueblo Bello, Cesar</div>
                 </div>
               </div>

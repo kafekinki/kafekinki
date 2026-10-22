@@ -138,7 +138,7 @@ export default function Navbar() {
                 className="flex items-center justify-center gap-2 text-sm font-semibold text-white bg-[#8C2D19] py-2.5 rounded-full hover:bg-[#732211] transition-colors"
               >
                 <MessageCircle className="w-4 h-4" />
-                <span>{t("contactCarlos")}</span>
+                <span>{t("contactFamily")}</span>
               </a>
             </div>
           </div>

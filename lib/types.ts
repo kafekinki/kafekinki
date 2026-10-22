@@ -41,7 +41,7 @@ export interface InstagramPost {
   id: string;
   title: string;
   caption: string;
-  category: "Origen" | "Cosecha" | "Carlos / Productor" | "Café Servido" | "Empaque" | "Comunidad";
+  category: "Origen" | "Cosecha" | "Familia Pérez Arroyo / Productor" | "Café Servido" | "Empaque" | "Comunidad";
   imageUrl: string;
   link: string;
 }

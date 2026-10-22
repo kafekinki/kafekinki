@@ -13,14 +13,14 @@ export default function Story() {
     <section id="historia" className="py-20 md:py-32 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          {/* Left Column: Carlos in Field Photography */}
+          {/* Left Column: Familia Pérez Arroyo in Field Photography */}
           <div className="lg:col-span-6 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
               {/* Primary Portrait Card */}
               <div className="relative rounded-2xl overflow-hidden shadow-xl aspect-[4/4.5] border-8 border-[#FBF8F3]">
                 <Image
                   src="/images/carlos-portrait.jpg"
-                  alt="Carlos, caficultor y productor de Kafe Kinki en Pueblo Bello"
+                  alt="Familia Pérez Arroyo, caficultores y productores de Kafé Kinki en Pueblo Bello"
                   fill
                   className="object-cover object-top hover:scale-105 transition-transform duration-700"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -31,7 +31,7 @@ export default function Story() {
               <div className="absolute -bottom-8 -right-4 sm:-right-8 w-1/2 rounded-xl overflow-hidden shadow-2xl border-4 border-white aspect-[4/3] hidden sm:block">
                 <Image
                   src="/images/carlos-harvest.jpg"
-                  alt="Carlos recolectando café en Pueblo Bello"
+                  alt="Cosecha de café por la familia Pérez Arroyo en Pueblo Bello"
                   fill
                   sizes="(max-width: 768px) 50vw, 25vw"
                   className="object-cover"
@@ -101,7 +101,7 @@ export default function Story() {
               </div>
             </div>
 
-            {/* Social Link to Follow Carlos */}
+            {/* Social Link to Follow Familia Pérez Arroyo */}
             <div className="mt-8">
               <a
                 href={BRAND_DATA.instagramUrl}

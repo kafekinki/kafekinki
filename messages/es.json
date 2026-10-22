@@ -1,8 +1,8 @@
 {
   "meta": {
     "title": "Kafé Kinki | Café de Especialidad de la Sierra Nevada — Pueblo Bello, Colombia",
-    "description": "Kafé Kinki es café 100% colombiano de especialidad, cultivado por Carlos en Pueblo Bello, en la Sierra Nevada de Santa Marta. Kinki: lo real, lo verdadero, lo original en lengua arhuaca.",
-    "keywords": "Kafe Kinki, café de especialidad, Colombia, Pueblo Bello, Sierra Nevada de Santa Marta, café arhuaco, café artesanal, Carlos productor"
+    "description": "Kafé Kinki es café 100% colombiano de especialidad, cultivado por la familia Pérez Arroyo en Pueblo Bello, en la Sierra Nevada de Santa Marta. Kinki: lo real, lo verdadero, lo original en lengua arhuaca.",
+    "keywords": "Kafé Kinki, café de especialidad, Colombia, Pueblo Bello, Sierra Nevada de Santa Marta, café arhuaco, café artesanal, familia Perez Arroyo"
   },
   "nav": {
     "heritage": "Significado de Kinki",
@@ -13,7 +13,7 @@
     "instagram": "Instagram",
     "contact": "Contacto",
     "locationBadge": "Pueblo Bello, Sierra Nevada de Santa Marta",
-    "contactCarlos": "Contactar a Carlos",
+    "contactFamily": "Contactar a la Familia Pérez Arroyo",
     "followInstagram": "Seguir en Instagram",
     "switchLang": "Cambiar idioma"
   },
@@ -22,11 +22,11 @@
     "titlePrefix": "Café de la",
     "titleHighlight": "Sierra Nevada",
     "tagline": "Deleita tu fragancia, el aroma y el sabor",
-    "description": "Somos cultivadores y productores de café de especialidad en Pueblo Bello, Colombia. Inspirados en la raíz arhuaca de Kinki —lo real, lo verdadero y lo original— llevamos el alma de la Sierra directamente a tu taza con el esmero de Carlos.",
+    "description": "Somos cultivadores y productores de café de especialidad en Pueblo Bello, Colombia. Inspirados en la raíz arhuaca de Kinki —lo real, lo verdadero y lo original— llevamos el alma de la Sierra directamente a tu taza con el esmero de la familia Pérez Arroyo.",
     "ctaDiscover": "Descubrir Nuestro Café",
     "ctaStory": "Conocer la Historia",
     "badgeSpecialty": "100% Café de Especialidad",
-    "producerBadge": "Productor",
+    "producerBadge": "Productores",
     "roastBadge": "Tostión Media",
     "roastBadgeSub": "Aroma & Fragancia",
     "statOriginLabel": "Origen",
@@ -43,8 +43,8 @@
     "titleHighlight": "Kinki",
     "subtitle": "En la lengua ancestral del pueblo Arhuaco de la Sierra Nevada de Santa Marta, la palabra Kinki significa:",
     "quote": "Real. Verdadero. Original.",
-    "p1": "Para Carlos y su familia, Kafé Kinki no es solo una marca de café: es una declaración de origen, identidad y respeto por la tierra sagrada de la Sierra Nevada. Las raíces indígenas de Carlos guían cada decisión en el cafetal, entendiendo que el café es un vínculo vivo entre las montañas, la niebla y las manos que lo cultivan.",
-    "p2": "Nombrar a nuestro café Kinki es honrar lo genuino: café sin aditivos, sin atajos industriales, cultivado bajo la sombra de árboles nativos y cosechado a mano con paciencia y verdad.",
+    "p1": "Para la familia Pérez Arroyo, Kafé Kinki no es solo una marca de café: es una declaración de origen, identidad y respeto por la tierra sagrada de la Sierra Nevada. Sus raíces indígenas guían cada decisión en el cafetal, entendiendo que el café es un vínculo vivo entre las montañas, la niebla y las manos que lo cultivan.",
+    "p2": "Nombrar a nuestro Kafé Kinki es honrar lo genuino: café sin aditivos, sin atajos industriales, cultivado bajo la sombra de árboles nativos y cosechado a mano con paciencia y verdad.",
     "pillars": {
       "kinki": {
         "title": "Kinki",
@@ -58,9 +58,9 @@
         "title": "Sierra Nevada",
         "desc": "La montaña costera más alta del mundo, hogar ancestral y microclima bendecido."
       },
-      "carlos": {
-        "title": "Carlos",
-        "desc": "Caficultor y productor de raíces indígenas que plasma su cuidado y respeto en cada lote."
+      "family": {
+        "title": "Familia Pérez Arroyo",
+        "desc": "Caficultores y productores de raíces indígenas que plasman su cuidado y respeto en cada lote."
       },
       "cafe": {
         "title": "El Café",
@@ -72,17 +72,17 @@
     "badge": "Nuestra Historia",
     "title": "De nuestra tierra",
     "titleHighlight": "a tu taza",
-    "producerStamp": "El caficultor detrás de cada grano",
-    "p1": "Detrás de cada paquete de Kafé Kinki está Carlos, cultivador y productor nacido en la región de Pueblo Bello, Cesar. Su relación con el café no comenzó en una oficina, sino en los senderos de montaña de la Sierra Nevada de Santa Marta.",
-    "p2": "A diferencia del café masivo, Kafé Kinki es fruto de un trabajo independiente y artesanal. Cada planta es sembrada, abonada de forma natural y cuidada con dedicación, preservando la biodiversidad del entorno.",
+    "producerStamp": "La familia caficultora detrás de cada grano",
+    "p1": "Detrás de cada paquete de Kafé Kinki está la familia Pérez Arroyo, cultivadores y productores nacidos en la región de Pueblo Bello, Cesar. Su relación con el café no comenzó en una oficina, sino en los senderos de montaña de la Sierra Nevada de Santa Marta.",
+    "p2": "A diferencia del café masivo, Kafé Kinki es fruto de un trabajo familiar, independiente y artesanal. Cada planta es sembrada, abonada de forma natural y cuidada con dedicación, preservando la biodiversidad del entorno.",
     "quote": "Cultivar café de especialidad no es solo un oficio, es la forma en que honramos nuestra tierra y compartimos con el mundo el aroma auténtico de la Sierra.",
     "values": {
-      "smallProducerTitle": "Pequeño Productor Independiente",
+      "smallProducerTitle": "Familia Productora Independiente",
       "smallProducerDesc": "Trato personal y directo, sin intermediarios corporativos.",
       "originTitle": "Pueblo Bello, Cesar",
       "originDesc": "Enclave cafetero en el corazón de la Sierra Nevada."
     },
-    "followLink": "Acompaña a Carlos en su día a día en @kafe_kinki"
+    "followLink": "Acompaña a la familia Pérez Arroyo en su día a día en @kafe_kinki"
   },
   "origin": {
     "badge": "El Viaje del Origen",
@@ -117,8 +117,8 @@
       {
         "number": "03",
         "title": "Cultivo y Sombrío Natural",
-        "subtitle": "Cafetales de Carlos • Cuidado Diario",
-        "description": "En Pueblo Bello, los cafetos crecen protegidos bajo la sombra de árboles nativos. Carlos camina sus lotes a diario, cuidando la salud de las hojas, la floración y el suelo vivo.",
+        "subtitle": "Cafetales Familiares • Cuidado Diario",
+        "description": "En Pueblo Bello, los cafetos crecen protegidos bajo la sombra de árboles nativos. La familia Pérez Arroyo cuida y recorre sus lotes a diario, velando por la salud de las hojas, la floración y el suelo vivo.",
         "badge": "Sombrío Natural",
         "highlights": [
           "Cultivo bajo doseles de sombra natural",
@@ -159,7 +159,7 @@
         "highlights": [
           "Tostión media que exalta fragancia, aroma y sabor",
           "Presentaciones en grano entero y molido fresco",
-          "Café 100% artesanal directo del productor"
+          "Café 100% artesanal directo de la familia productora"
         ]
       }
     ]
@@ -173,10 +173,10 @@
     "tabGround": "Molido (Ground)",
     "sizesLabel": "Tamaños Disponibles",
     "bagLabel": "Bolsa",
-    "inquireButton": "Consultar con Carlos",
+    "inquireButton": "Consultar Disponibilidad",
     "freshRoastNote": "Lotes artesanales con tostión fresca por encargo.",
     "specOrigin": "Origen",
-    "specProducer": "Productor",
+    "specProducer": "Productores",
     "specRoast": "Tostión",
     "specPresentation": "Presentación",
     "specComposition": "Composición",
@@ -186,7 +186,7 @@
       "grindType": "Grano Entero",
       "roastLevel": "Tostión Media Artesanal",
       "tagline": "Conserva toda la frescura, los aceites esenciales y la fragancia intacta.",
-      "description": "Café 100% colombiano de especialidad, cultivado bajo sombrío natural y seleccionado a mano por Carlos. En presentación de grano entero para moler fresco en cada preparación y deleitar el aroma y sabor de la Sierra Nevada.",
+      "description": "Café 100% colombiano de especialidad, cultivado bajo sombrío natural y seleccionado a mano por la familia Pérez Arroyo. En presentación de grano entero para moler fresco en cada preparación y deleitar el aroma y sabor de la Sierra Nevada.",
       "badge": "100% Café Artesanal"
     },
     "ground": {
@@ -209,7 +209,7 @@
         "number": "01",
         "title": "El Cafetal y la Siembra",
         "subtitle": "Cuidado diario de cada planta",
-        "description": "En Pueblo Bello, cada planta de café es cuidada con atención continua. Carlos camina sus lotes inspeccionando la salud de las hojas, la floración y el desarrollo de las cerezas bajo el clima de la Sierra.",
+        "description": "En Pueblo Bello, cada planta de café es cuidada con atención continua. La familia Pérez Arroyo recorre sus lotes inspeccionando la salud de las hojas, la floración y el desarrollo de las cerezas bajo el clima de la Sierra.",
         "badge": "Origen & Tierra",
         "highlights": [
           "Cultivo bajo sombra natural",
@@ -258,7 +258,7 @@
   "instagram": {
     "badge": "Comunidad & Vida en el Cafetal",
     "title": "Sigue el viaje de",
-    "subtitle": "Descubre el día a día en Pueblo Bello, la cosecha de Carlos y los momentos detrás de cada lote.",
+    "subtitle": "Descubre el día a día en Pueblo Bello, la cosecha de la familia Pérez Arroyo y los momentos detrás de cada lote.",
     "button": "Seguir en Instagram",
     "viewOnIg": "Ver en Instagram",
     "bioSnippet": "Somos cultivadores y productores de café de especialidad. Ubicados en Pueblo Bello, Sierra Nevada."
@@ -267,16 +267,16 @@
     "badge": "Contacto Directo",
     "title": "Hablemos de",
     "titleHighlight": "buen café",
-    "description": "¿Deseas conocer más sobre nuestras cosechas, consultar disponibilidad de lotes o escribirle a Carlos? Escríbenos y con gusto te responderemos.",
+    "description": "¿Deseas conocer más sobre nuestras cosechas, consultar disponibilidad de lotes o escribir a la familia Pérez Arroyo? Escríbenos y con gusto te responderemos.",
     "locationTitle": "Ubicación & Origen",
     "locationValue": "Pueblo Bello, Cesar",
     "locationSub": "Sierra Nevada de Santa Marta, Colombia",
     "igTitle": "Instagram Oficial",
     "igSub": "Mensajes directos y novedades diarias",
     "directTitle": "Atención Directa",
-    "directValue": "Carlos — Productor",
+    "directValue": "Familia Pérez Arroyo — Productores",
     "directSub": "Café artesanal en grano entero y molido",
-    "formTitle": "Envía un mensaje a Carlos",
+    "formTitle": "Envía un mensaje a la Familia Pérez Arroyo",
     "formSub": "Completa este breve formulario y te responderemos a la brevedad.",
     "nameLabel": "Tu Nombre",
     "namePlaceholder": "Ej. Sofia Gómez",
@@ -288,15 +288,15 @@
     "interestOrigin": "Información de Origen & Cosecha",
     "interestPartnership": "Colaboraciones & Alianzas",
     "messageLabel": "Tu Mensaje o Pregunta",
-    "messagePlaceholder": "Cuéntanos qué te gustaría saber sobre Kafé Kinki...",
-    "submitButton": "Enviar Mensaje a Carlos",
+    "messagePlaceholder": "Cuéntanos qué te gustaría saber sobre Kafe Kinki...",
+    "submitButton": "Enviar Mensaje",
     "successTitle": "¡Mensaje Recibido!",
-    "successDesc": "Gracias por tu interés en Kafé Kinki. Carlos o nuestro equipo se pondrán en contacto contigo muy pronto.",
+    "successDesc": "Gracias por tu interés en Kafé Kinki. La familia Pérez Arroyo se pondrá en contacto contigo muy pronto.",
     "sendAnother": "Enviar otro mensaje"
   },
   "footer": {
     "tagline": "Deleita tu fragancia, el aroma y el sabor",
-    "description": "Café de especialidad 100% colombiano, cultivado y producido por Carlos en el municipio de Pueblo Bello, en el corazón de la Sierra Nevada de Santa Marta.",
+    "description": "Café de especialidad 100% colombiano, cultivado y producido por la familia Pérez Arroyo en el municipio de Pueblo Bello, en el corazón de la Sierra Nevada de Santa Marta.",
     "navTitle": "Navegación",
     "originTitle": "Origen Garantizado",
     "originDesc": "Tierra sagrada, microclima de montaña y tradición cafetera artesanal sin procesos industriales invasivos.",

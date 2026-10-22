@@ -31,10 +31,10 @@ export default function KinkiMeaning() {
       icon: <Mountain className="w-5 h-5 text-[#1E382B]" />,
     },
     {
-      key: "carlos",
-      title: t("pillars.carlos.title"),
-      desc: t("pillars.carlos.desc"),
-      label: "Productor / Roots",
+      key: "family",
+      title: t("pillars.family.title"),
+      desc: t("pillars.family.desc"),
+      label: "Familia / Roots",
       icon: <User className="w-5 h-5 text-[#8C2D19]" />,
     },
     {
