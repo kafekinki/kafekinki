@@ -39,6 +39,7 @@
   },
   "kinki": {
     "badge": "Identity & Heritage",
+    "arhuacoBadge": "Arhuaco Language • Iku",
     "title": "The Meaning of",
     "titleHighlight": "Kinki",
     "subtitle": "In the ancestral language of the Arhuaco people of the Sierra Nevada de Santa Marta, the word Kinki means:",
@@ -47,22 +48,27 @@
     "p2": "Naming our coffee Kinki honors the genuine: coffee free from artificial shortcuts or industrial processing, shade-grown beneath native forest canopies and hand-harvested with patience and honesty.",
     "pillars": {
       "kinki": {
+        "label": "Philosophy",
         "title": "Kinki",
         "desc": "Real, true, and original. The guiding philosophy of transparency and truth in every bean."
       },
       "puebloBello": {
+        "label": "Place",
         "title": "Pueblo Bello",
         "desc": "The sacred mountain gateway at the foothills of the Sierra, home to pure waters and rich soils."
       },
       "sierraNevada": {
+        "label": "Sacred Land",
         "title": "Sierra Nevada",
         "desc": "The highest coastal mountain on Earth, ancestral heartland and blessed coffee microclimate."
       },
       "family": {
+        "label": "Family",
         "title": "Familia Pérez Arroyo",
         "desc": "Coffee growers and producers of Indigenous heritage who infuse care and respect into every harvest."
       },
       "cafe": {
+        "label": "The Craft",
         "title": "The Coffee",
         "desc": "The honest harvest bringing together sacred land, timeless heritage, and the cup you enjoy."
       }
@@ -169,17 +175,20 @@
     "title": "Our",
     "titleHighlight": "Presentations",
     "subtitle": "Grown, hand-selected, and roasted in artisanal small batches. Available in whole bean for freshly ground aroma, and precision ground ready to brew.",
-    "tabWhole": "Whole Bean (Grano Entero)",
-    "tabGround": "Ground (Café Molido)",
+    "tabWhole": "Whole Bean",
+    "tabGround": "Ground Coffee",
     "sizesLabel": "Available Sizes",
     "bagLabel": "Bag",
     "inquireButton": "Inquire Availability",
     "freshRoastNote": "Artisanal batches roasted fresh to order.",
     "specOrigin": "Origin",
+    "specOriginValue": "Pueblo Bello, Sierra Nevada (Colombia)",
     "specProducer": "Producers",
+    "specProducerValue": "Familia Pérez Arroyo",
     "specRoast": "Roast",
     "specPresentation": "Presentation",
     "specComposition": "Composition",
+    "specCompositionValue": "100% Colombian Coffee",
     "wholeBean": {
       "name": "Kafé Kinki — Whole Bean",
       "subtitle": "Artisanal Coffee from the Sierra Nevada",

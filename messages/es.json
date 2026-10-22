@@ -39,6 +39,7 @@
   },
   "kinki": {
     "badge": "Identidad & Raíz",
+    "arhuacoBadge": "Lengua Arhuaca • Iku",
     "title": "El Significado de",
     "titleHighlight": "Kinki",
     "subtitle": "En la lengua ancestral del pueblo Arhuaco de la Sierra Nevada de Santa Marta, la palabra Kinki significa:",
@@ -47,22 +48,27 @@
     "p2": "Nombrar a nuestro Kafé Kinki es honrar lo genuino: café sin aditivos, sin atajos industriales, cultivado bajo la sombra de árboles nativos y cosechado a mano con paciencia y verdad.",
     "pillars": {
       "kinki": {
+        "label": "Principio",
         "title": "Kinki",
         "desc": "Lo real, lo verdadero y lo original. La filosofía de transparencia y autenticidad en cada grano."
       },
       "puebloBello": {
+        "label": "Lugar",
         "title": "Pueblo Bello",
         "desc": "El lugar sagrado en las faldas de la Sierra, cuna de agua pura y tierras fértiles."
       },
       "sierraNevada": {
+        "label": "Tierra Sagrada",
         "title": "Sierra Nevada",
         "desc": "La montaña costera más alta del mundo, hogar ancestral y microclima bendecido."
       },
       "family": {
+        "label": "Familia",
         "title": "Familia Pérez Arroyo",
         "desc": "Caficultores y productores de raíces indígenas que plasman su cuidado y respeto en cada lote."
       },
       "cafe": {
+        "label": "El Fruto",
         "title": "El Café",
         "desc": "El fruto honesto que une la tierra, la herencia milenaria y la experiencia en tu taza."
       }
@@ -169,17 +175,20 @@
     "title": "Nuestras",
     "titleHighlight": "Presentaciones",
     "subtitle": "Cultivado, seleccionado y tostado de forma artesanal. Disponible en grano entero para los amantes del molido fresco, y en café molido listo para disfrutar.",
-    "tabWhole": "Grano Entero (Whole Bean)",
-    "tabGround": "Molido (Ground)",
+    "tabWhole": "Grano Entero",
+    "tabGround": "Café Molido",
     "sizesLabel": "Tamaños Disponibles",
     "bagLabel": "Bolsa",
     "inquireButton": "Consultar Disponibilidad",
     "freshRoastNote": "Lotes artesanales con tostión fresca por encargo.",
     "specOrigin": "Origen",
+    "specOriginValue": "Pueblo Bello, Sierra Nevada (Colombia)",
     "specProducer": "Productores",
+    "specProducerValue": "Familia Pérez Arroyo",
     "specRoast": "Tostión",
     "specPresentation": "Presentación",
     "specComposition": "Composición",
+    "specCompositionValue": "100% Café Colombiano",
     "wholeBean": {
       "name": "Kafé Kinki — Grano Entero",
       "subtitle": "Café Artesanal de la Sierra Nevada",

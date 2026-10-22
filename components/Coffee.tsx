@@ -22,11 +22,11 @@ export default function Coffee() {
       badge: t("wholeBean.badge"),
       sizes: ["250g", "500g"],
       specifications: [
-        { label: t("specOrigin"), value: "Pueblo Bello, Sierra Nevada (Colombia)" },
-        { label: t("specProducer"), value: "Familia Pérez Arroyo" },
+        { label: t("specOrigin"), value: t("specOriginValue") },
+        { label: t("specProducer"), value: t("specProducerValue") },
         { label: t("specRoast"), value: t("wholeBean.roastLevel") },
         { label: t("specPresentation"), value: t("wholeBean.grindType") },
-        { label: t("specComposition"), value: "100% Colombian Coffee" },
+        { label: t("specComposition"), value: t("specCompositionValue") },
       ],
     },
     ground: {
@@ -40,11 +40,11 @@ export default function Coffee() {
       badge: t("ground.badge"),
       sizes: ["250g", "500g"],
       specifications: [
-        { label: t("specOrigin"), value: "Pueblo Bello, Sierra Nevada (Colombia)" },
-        { label: t("specProducer"), value: "Familia Pérez Arroyo" },
+        { label: t("specOrigin"), value: t("specOriginValue") },
+        { label: t("specProducer"), value: t("specProducerValue") },
         { label: t("specRoast"), value: t("ground.roastLevel") },
         { label: t("specPresentation"), value: t("ground.grindType") },
-        { label: t("specComposition"), value: "100% Colombian Coffee" },
+        { label: t("specComposition"), value: t("specCompositionValue") },
       ],
     },
   };

@@ -13,35 +13,35 @@ export default function KinkiMeaning() {
       key: "kinki",
       title: t("pillars.kinki.title"),
       desc: t("pillars.kinki.desc"),
-      label: "Principio / Philosophy",
+      label: t("pillars.kinki.label"),
       icon: <Sparkles className="w-5 h-5 text-[#8C2D19]" />,
     },
     {
       key: "puebloBello",
       title: t("pillars.puebloBello.title"),
       desc: t("pillars.puebloBello.desc"),
-      label: "Lugar / Place",
+      label: t("pillars.puebloBello.label"),
       icon: <MapPin className="w-5 h-5 text-[#7E573C]" />,
     },
     {
       key: "sierraNevada",
       title: t("pillars.sierraNevada.title"),
       desc: t("pillars.sierraNevada.desc"),
-      label: "Tierra Sagrada / Land",
+      label: t("pillars.sierraNevada.label"),
       icon: <Mountain className="w-5 h-5 text-[#1E382B]" />,
     },
     {
       key: "family",
       title: t("pillars.family.title"),
       desc: t("pillars.family.desc"),
-      label: "Familia / Roots",
+      label: t("pillars.family.label"),
       icon: <User className="w-5 h-5 text-[#8C2D19]" />,
     },
     {
       key: "cafe",
       title: t("pillars.cafe.title"),
       desc: t("pillars.cafe.desc"),
-      label: "El Fruto / The Craft",
+      label: t("pillars.cafe.label"),
       icon: <Coffee className="w-5 h-5 text-[#C69864]" />,
     },
   ];
@@ -80,7 +80,7 @@ export default function KinkiMeaning() {
             {/* Left: Definition Quote */}
             <div className="lg:col-span-5 flex flex-col justify-center border-b lg:border-b-0 lg:border-r border-[#E8DFD3] pb-8 lg:pb-0 lg:pr-10">
               <span className="text-xs uppercase font-bold text-[#8C2D19] tracking-widest block mb-2">
-                Lengua Arhuaca • Iku
+                {t("arhuacoBadge")}
               </span>
               <h3
                 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-bold text-[#1C1512] tracking-tight mb-4"
