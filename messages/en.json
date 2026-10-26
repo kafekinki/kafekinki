@@ -46,6 +46,15 @@
     "quote": "Real. True. Original.",
     "p1": "For the Pérez Arroyo family, Kafé Kinki is far more than a name: it is a commitment to origin, identity, and deep reverence for the sacred mountains of the Sierra Nevada. Their Indigenous roots guide every step on the farm, knowing coffee is a living bridge between the mountain mists, the fertile earth, and caring hands.",
     "p2": "Naming our coffee Kinki honors the genuine: coffee free from artificial shortcuts or industrial processing, shade-grown beneath native forest canopies and hand-harvested with patience and honesty.",
+    "origin": {
+      "eyebrow": "How the brand was born",
+      "year": "2018",
+      "yearLabel": "Founded",
+      "title": "A brand born from the heart of Colombia",
+      "body": "Kafé Kinki was born in 2018 with a clear conviction: Colombians deserve to enjoy the finest coffee their country produces without paying prices reserved for foreign markets. Colombia exports a large share of its specialty coffee abroad, leaving its own consumers with lower-grade options or unaffordable premiums. The Pérez Arroyo family set out to change that reality, bringing Sierra Nevada specialty coffee directly to the Colombian consumer at a fair and accessible price — with no middlemen and without compromising a single cherry of quality. Kafé Kinki stands for profitability for Colombians: the right to taste what is most authentic and true in their own cup.",
+      "missionLabel": "Our mission",
+      "missionValue": "Accessible specialty coffee for Colombia"
+    },
     "pillars": {
       "kinki": {
         "label": "Philosophy",

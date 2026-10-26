@@ -46,6 +46,15 @@
     "quote": "Real. Verdadero. Original.",
     "p1": "Para la familia Pérez Arroyo, Kafé Kinki no es solo una marca de café: es una declaración de origen, identidad y respeto por la tierra sagrada de la Sierra Nevada. Sus raíces indígenas guían cada decisión en el cafetal, entendiendo que el café es un vínculo vivo entre las montañas, la niebla y las manos que lo cultivan.",
     "p2": "Nombrar a nuestro Kafé Kinki es honrar lo genuino: café sin aditivos, sin atajos industriales, cultivado bajo la sombra de árboles nativos y cosechado a mano con paciencia y verdad.",
+    "origin": {
+      "eyebrow": "Cómo nació la marca",
+      "year": "2018",
+      "yearLabel": "Año de fundación",
+      "title": "Una marca nacida del corazón de Colombia",
+      "body": "Kafé Kinki nació en 2018 con una convicción clara: los colombianos merecen disfrutar el mejor café de su propio país sin pagar precios imposibles. Colombia exporta gran parte de su café de especialidad al extranjero, dejando a sus propios consumidores con cafés de menor calidad o con precios reservados para mercados internacionales. La familia Pérez Arroyo decidió cambiar esa realidad llevando el café de especialidad de la Sierra Nevada directamente al consumidor colombiano, a un precio justo y rentable, sin intermediarios y sin sacrificar ni una sola cereza de calidad. Kafé Kinki es rentabilidad para los colombianos: el derecho de saborear en tu propia taza lo más auténtico y verdadero que produce nuestra tierra.",
+      "missionLabel": "Nuestra misión",
+      "missionValue": "Café de especialidad accesible para Colombia"
+    },
     "pillars": {
       "kinki": {
         "label": "Principio",

@@ -105,6 +105,56 @@ export default function KinkiMeaning() {
           </div>
         </div>
 
+        {/* Brand Origin Story */}
+        <div className="relative bg-[#1C1512] rounded-3xl overflow-hidden mb-16 shadow-xl">
+          {/* Background texture */}
+          <div className="absolute inset-0 opacity-10 pointer-events-none"
+            style={{ backgroundImage: "radial-gradient(circle at 20% 50%, #C69864 0%, transparent 60%), radial-gradient(circle at 80% 20%, #8C2D19 0%, transparent 50%)" }}
+          />
+
+          <div className="relative z-10 p-8 sm:p-12 lg:p-16 grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-14 items-start">
+            {/* Left: Year anchor */}
+            <div className="lg:col-span-3 flex flex-col items-start gap-4">
+              <span className="text-[10px] font-bold uppercase tracking-widest text-[#C69864] border border-[#C69864]/40 rounded-full px-3 py-1">
+                {t("origin.eyebrow")}
+              </span>
+              <div className="flex flex-col">
+                <span
+                  className="text-7xl sm:text-8xl font-serif font-bold text-white leading-none"
+                  style={{ fontFamily: "var(--font-fraunces), serif" }}
+                >
+                  {t("origin.year")}
+                </span>
+                <span className="text-xs text-[#C69864] font-semibold uppercase tracking-wider mt-1">
+                  {t("origin.yearLabel")}
+                </span>
+              </div>
+              {/* Mission chip */}
+              <div className="mt-2 bg-[#8C2D19]/30 border border-[#8C2D19]/50 rounded-xl p-4 text-left">
+                <p className="text-[10px] font-bold uppercase tracking-wider text-[#C69864] mb-1">
+                  {t("origin.missionLabel")}
+                </p>
+                <p className="text-sm text-white/90 leading-snug font-medium">
+                  {t("origin.missionValue")}
+                </p>
+              </div>
+            </div>
+
+            {/* Right: Story */}
+            <div className="lg:col-span-9 flex flex-col justify-center gap-5">
+              <h3
+                className="text-2xl sm:text-3xl lg:text-4xl font-serif font-bold text-white leading-tight"
+                style={{ fontFamily: "var(--font-fraunces), serif" }}
+              >
+                {t("origin.title")}
+              </h3>
+              <p className="text-base sm:text-lg text-white/75 leading-relaxed">
+                {t("origin.body")}
+              </p>
+            </div>
+          </div>
+        </div>
+
         {/* The 5 Pillars of Identity & Origin */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
           {pillars.map((item, idx) => (
