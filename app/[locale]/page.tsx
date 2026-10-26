@@ -5,6 +5,7 @@ import KinkiMeaning from "@/components/KinkiMeaning";
 import Story from "@/components/Story";
 import Origin from "@/components/Origin";
 import Coffee from "@/components/Coffee";
+import OtherProducts from "@/components/OtherProducts";
 import InstagramFeed from "@/components/InstagramFeed";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
@@ -24,6 +25,7 @@ export default async function HomePage({
       <Story />
       <Origin />
       <Coffee />
+      <OtherProducts />
       <InstagramFeed />
       <Contact />
       <Footer />

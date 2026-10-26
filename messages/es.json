@@ -312,6 +312,49 @@
     "successDesc": "Gracias por tu interés en Kafé Kinki. La familia Pérez Arroyo se pondrá en contacto contigo muy pronto.",
     "sendAnother": "Enviar otro mensaje"
   },
+  "otherProducts": {
+    "badge": "También ofrecemos",
+    "title": "Otros productos de",
+    "titleHighlight": "nuestra tierra",
+    "subtitle": "Además de nuestro café de especialidad, la familia Pérez Arroyo comparte otros tesoros artesanales de la Sierra Nevada y la región.",
+    "modelNote": "* Imágenes de referencia. Los modelos y presentaciones disponibles pueden variar.",
+    "inquireButton": "Consultar disponibilidad",
+    "items": [
+      {
+        "id": "mochila",
+        "name": "Mochila Artesanal",
+        "badge": "Artesanía Indígena",
+        "tag": "Modelo de referencia",
+        "description": "Mochila tejida a mano con hilos naturales, inspirada en la tradición artesanal de la Sierra Nevada. Cada pieza es única, elaborada por artesanas de la región con patrones geométricos ancestrales. Los modelos y colores mostrados son de referencia; disponibilidad sujeta a consulta.",
+        "detail1Label": "Técnica",
+        "detail1Value": "Tejido a mano",
+        "detail2Label": "Origen",
+        "detail2Value": "Sierra Nevada, Colombia"
+      },
+      {
+        "id": "panela",
+        "name": "Panela Pulverizada",
+        "badge": "100% Natural",
+        "tag": "Producto artesanal",
+        "description": "Panela de caña de azúcar procesada de forma artesanal y reducida a polvo fino. Sin refinamiento industrial, sin aditivos: endulzante natural puro con todo el sabor y los minerales de la caña. Ideal para bebidas calientes, repostería y recetas tradicionales colombianas.",
+        "detail1Label": "Presentación",
+        "detail1Value": "Pulverizada (polvo fino)",
+        "detail2Label": "Composición",
+        "detail2Value": "100% Caña de azúcar natural"
+      },
+      {
+        "id": "cacao",
+        "name": "Cacao 100% Puro",
+        "badge": "100% Cacao",
+        "tag": "Ya procesado",
+        "description": "Cacao colombiano de alta calidad, procesado de manera artesanal: fermentado, secado y transformado en pasta o polvo puro sin mezclas ni aditivos. Perfecto para bebidas de cacao tradicional, recetas de cocina y consumo directo para los amantes del chocolate auténtico.",
+        "detail1Label": "Proceso",
+        "detail1Value": "Fermentado y secado artesanal",
+        "detail2Label": "Composición",
+        "detail2Value": "100% Cacao puro colombiano"
+      }
+    ]
+  },
   "footer": {
     "tagline": "Deleita tu fragancia, el aroma y el sabor",
     "description": "Café de especialidad 100% colombiano, cultivado y producido por la familia Pérez Arroyo en el municipio de Pueblo Bello, en el corazón de la Sierra Nevada de Santa Marta.",

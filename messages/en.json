@@ -256,6 +256,49 @@
     "successDesc": "Thank you for your interest in Kafé Kinki. The Pérez Arroyo family will get in touch with you shortly.",
     "sendAnother": "Send another message"
   },
+  "otherProducts": {
+    "badge": "We also offer",
+    "title": "Other products from",
+    "titleHighlight": "our land",
+    "subtitle": "Beyond our specialty coffee, the Pérez Arroyo family shares other artisanal treasures from the Sierra Nevada and the surrounding region.",
+    "modelNote": "* Reference images. Available models and presentations may vary.",
+    "inquireButton": "Ask about availability",
+    "items": [
+      {
+        "id": "mochila",
+        "name": "Artisanal Mochila Bag",
+        "badge": "Indigenous Craft",
+        "tag": "Reference model",
+        "description": "Hand-woven mochila bag made with natural threads, inspired by the artisanal tradition of the Sierra Nevada. Each piece is unique, crafted by local artisans with ancestral geometric patterns. Models and colors shown are for reference; availability subject to inquiry.",
+        "detail1Label": "Technique",
+        "detail1Value": "Hand-woven",
+        "detail2Label": "Origin",
+        "detail2Value": "Sierra Nevada, Colombia"
+      },
+      {
+        "id": "panela",
+        "name": "Pulverized Panela",
+        "badge": "100% Natural",
+        "tag": "Artisanal product",
+        "description": "Artisanal sugarcane panela finely ground into powder. No industrial refining, no additives — pure natural sweetener with the full flavor and minerals of sugarcane. Ideal for hot drinks, baking, and traditional Colombian recipes.",
+        "detail1Label": "Presentation",
+        "detail1Value": "Pulverized (fine powder)",
+        "detail2Label": "Composition",
+        "detail2Value": "100% Natural sugarcane"
+      },
+      {
+        "id": "cacao",
+        "name": "100% Pure Cacao",
+        "badge": "100% Cacao",
+        "tag": "Already processed",
+        "description": "High-quality Colombian cacao, artisanally processed — fermented, sun-dried, and transformed into pure paste or powder with no blends or additives. Perfect for traditional cacao drinks, cooking, and direct consumption for lovers of authentic chocolate.",
+        "detail1Label": "Process",
+        "detail1Value": "Fermented & artisanal sun-dried",
+        "detail2Label": "Composition",
+        "detail2Value": "100% Pure Colombian Cacao"
+      }
+    ]
+  },
   "footer": {
     "tagline": "Delight your fragrance, aroma, and flavor",
     "description": "100% Colombian specialty coffee, cultivated by the Pérez Arroyo family in Pueblo Bello, deep within the Sierra Nevada de Santa Marta.",
